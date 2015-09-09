@@ -1,0 +1,29 @@
+Arabic (ISO-8859-6)	arabic-windows1256 or arabic-iso8859_6 or ukrainian-koi8_r or russian-koi8_r or chinese-gb2312
+Catalan (ISO-8859-1)	catalan
+Chinese (Simplified)	chinese-gb2312
+Chinese (Traditional)	chinese-big5
+Danish (ISO-8859-1)	danish
+Dutch (ISO-8859-1)	dutch
+English (ISO-8859-1)	english
+Esperanto (ISO-8859-3)	esperanto
+Finnish (ISO-8859-1)	finnish
+French (ISO-8859-1)	french
+Georgian (UTF-8)	I don't know; Perhaps this is a language I haven't seen before?
+German (ISO-8859-1)	german
+Hebrew (ISO-8859-8-I)	hebrew-iso8859_8
+Hungarian (ISO-8859-2)	hungarian
+Irish Gaelic	irish
+Italian (ISO-8859-1)	italian or romanian or catalan or spanish
+Japanese (SHIFT_JIS)	japanese-shift_jis
+Korean (EUC-KR)	korean
+Norwegian (Bokmål)	danish
+Norwegian (Nynorsk)	danish or swedish or frisian or middle_frisian
+Occitan (ISO-8859-1)	catalan or spanish or french
+Portuguese (Brazil)	portuguese or spanish
+Portuguese (Portugal)	portuguese or spanish
+Romanian (ISO-8859-2)	romanian or latin
+Russian (ISO-8859-5)	russian-iso8859_5
+Slovenian (ISO-8859-2)	slovenian-iso8859_2 or slovenian-ascii
+Spanish (ISO-8859-1)	spanish or catalan
+Swedish (ISO-8859-1)	swedish
+Yiddish (UTF-8)	yiddish-utf

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/profile.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+load_profile_scripts();
+{% endblock %}
+{% block body %}
+<div class="container body">
+	<div class="row">
+      <div class="col-md-9 col-md-offset-1">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">{% csrf_token %}
+          <fieldset>
+            <legend class="text-center">{% trans "Profile" %}</legend>
+    
+
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">{% trans "Name" %}*</label>
+              <div class="col-md-9">
+                {{ profile_form.first_name }}
+                {{ profile_form.first_name.errors }}
+              </div>
+            </div>
+            
+            
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">{% trans "Surnames" %}*</label>
+              <div class="col-md-9">
+                {{ profile_form.last_name }}
+                {{ profile_form.last_name.errors }}
+              </div>
+            </div>
+            
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">{% trans "Genre" %}</label>
+              <div class="col-md-9">
+                {{ profile_form.genre }}
+                {{ profile_form.genre.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">{% trans "Birth date" %}</label>
+              <div class="col-md-9">
+                {{ profile_form.birth_date }}
+                {{ profile_form.birth_date.errors }}
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">{% trans "NAN" %}*</label>
+              <div class="col-md-9">
+                {{ profile_form.NAN }}
+                {{ profile_form.NAN.errors }}
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">{% trans "Email" %}*</label>
+              <div class="col-md-9">
+                {{ profile_form.email }}
+                {{ profile_form.email.errors }}
+              </div>
+            </div>                             
+            
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">{% trans "Institution" %}</label>
+              <div class="col-md-9">              
+                {{ profile_form.institution }}
+                {{ profile_form.institution.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group" id="id_institution_name_div">
+              <label class="col-md-3 control-label" for="message">{% trans "Institution name" %}</label>
+              <div class="col-md-9">
+                {{ profile_form.institution_name }}
+                {{ profile_form.institution_name.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">{% trans "Country" %}</label>
+              <div class="col-md-9">
+                {{ profile_form.country }}
+                {{ profile_form.country.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">{% trans "Info" %}</label>
+              <div class="col-md-9">              
+                {{ profile_form.info }}
+                {{ profile_form.info.errors }}
+              </div>
+            </div>
+            
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" name = "profile_button" class="btn btn-primary btn-lg">{% trans "Save" %}</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+{% endblock %}

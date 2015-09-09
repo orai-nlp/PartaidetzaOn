@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/search_results.css" rel="stylesheet">
+
+{% endblock %}
+{% block search_language_links %}
+    {% for key,value in LANGUAGES %}
+                                        <li>{% if LANGUAGE_CODE == key %}<span class="current">{{ key|upper }}</span>
+                                        {% else %}
+                                        <form name="setLang{{ key }}" action="/i18n/setlang/" method="POST">{% csrf_token %}
+                                            <input name="next" type="hidden" value="#" />
+                                            <input type="hidden" name="language" value="{{ key }}" />
+                                            <!--<a href="#" onclick="document.setLangBasque.submit();return false;">EU</a>-->
+                                            <a href="#" onclick="paginated_search('?lang={{ key }}{% if pag_current_page %}&page={{ pag_current_page }}{% endif %}'); return false;">{{ key|upper }}</a>
+                                            
+                                        </form>
+                                        {% endif %}
+                                    </li><li> | </li>
+                                    {% endfor %}
+    {% endblock %}
+{% block body %}
+<div class="container body">
+    <div class="row">
+		<div class="well">
+        <h1 class="text-center">{{ result_list|length }} {% trans "Results found!" %}</h1>
+        <div class="list-group">
+        {% for result in results %}
+          {% if result.type == "Proposal" %}
+            <a href="/proposal/{{ result.object.id }}" class="list-group-item">
+          {% else %}
+            <a href="/accepted_proposal/{{ result.object.id }}" class="list-group-item">
+          {% endif %}
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive"  src="{{ STATIC_URL }}{{ result.object.get_images.0 }}" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">{{ result.object|get_title:LANGUAGE_CODE|safe }}</h4>
+                    <p class="list-group-item-text">{{ result.object|get_summary:LANGUAGE_CODE|cut_text|safe }}</p>
+                </div>
+
+                
+                <!--{% if result.type == "Project" %}
+                    <div class="col-md-3 text-center">
+                        <h2> <span>{{ result.object.get_votes }}</span> <small> {% trans "votes" %} </small></h2>
+                            {% if user.is_authenticated %}
+                                <button id="id_vote_show_{{ result.object.id }}" onclick="vote_via_ajax('{{ result.object.id }}'); return false" id="id_vote_button_{{ result.object.id }}" class="btn btn-primary btn-lg btn-block {% if result.object|already_voted:user %}voted{% endif %}" {% if result.object|already_voted:user %}disabled {% endif %}>{% if result.object|already_voted:user %}{% trans "Already voted" %}{% else %}{% trans "Vote" %}{% endif %}</button> 
+                            {% else %}
+                        <a class="btn btn-primary btn-lg btn-block" id="id_vote_show_{{ accepted_proposal.id }}" href="/?next=/">{% trans "Vote" %}</a>
+                    {% endif %}
+                    </div>
+                {% endif %}-->
+                
+                <div class="col-md-3 text-center">
+                    <h2> <span class="label label-default">{{ result.type }}</span><h2>
+                </div>
+                
+                <div class="col-md-1">
+                    {% for area in result.object.get_area_names %}
+                     <span class="label label-info">{{ area }}</span>
+                    {% endfor %}
+                </div>
+                
+            </a>
+          {% endfor %}         
+        </div>
+        </div>
+	</div>
+	
+	<nav class="pagination col-md-12 text-center">
+        <ul class="pagination">
+            {% if results.has_previous %}
+                <li><a href="#" onclick="paginated_search('?page=1'); return false;"><<</a></li>
+            {% endif %}
+            
+            {% if results.has_previous %}
+                <li><a href="#" onclick="paginated_search('?page={{ results.previous_page_number }}'); return false;"><</a></li>
+            {% endif %}
+
+            {% for num in results.paginator.page_range %}
+              {% ifequal num results.number %}
+                <li><span class="current"><b>{{ num }}</b></span></li>
+              {% else %}
+                <li><a href="#" onclick="paginated_search('?page={{ num }}'); return false;"> {{ num }}</a></li>
+              {% endifequal %} 
+            {% endfor %}
+
+            {% if results.has_next %}
+                <li><a href="#" onclick="paginated_search('?page={{ results.next_page_number }}'); return false;">></a></li>
+            {% endif %}
+            
+            {% if results.has_next %}
+                <li><a href="#" onclick="paginated_search('?page={{ results.paginator.num_pages }}'); return false;">>></a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% load tags %}
+{% for title in object|get_titles %}
+    {{ title }}    
+{% endfor %}
+
+{% for summary in object|get_summaries %}
+    {{ summary }}  
+{% endfor %}
+
+{% for necessity in object|get_necessities %}
+    {{ necessity }}  
+{% endfor %}
+
+{% for recipient in object|get_recipients %}
+    {{ recipient }}   
+{% endfor %}
+
+{% for where in object|get_wheres %}
+    {{ where }} 
+{% endfor %}
+
+
+

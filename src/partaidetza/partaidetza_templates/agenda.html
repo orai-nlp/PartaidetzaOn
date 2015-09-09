@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+
+<link href="{{ STATIC_URL }}css/agenda.css" rel="stylesheet">
+
+{% endblock %}
+{% block onload_scripts %}
+load_agenda_scripts();
+{% endblock %}
+{% block body %}
+<div class="container body">
+    {% include "calendar.html" %}
+</div>
+
+{% endblock %}
+{% block additional_scripts2 %}
+<script src="{{ STATIC_URL }}js/jquery.formset.js"></script>
+<script type="text/javascript">
+    var dates = [
+    {% for event in events %}
+        "{{ event.date.year }}-{{ event.date.month }}-{{ event.date.day }}", 
+    {% endfor %}
+    ]
+</script>
+{% endblock %}
+
+
+

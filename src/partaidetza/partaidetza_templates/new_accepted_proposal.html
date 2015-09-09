@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% load tags %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/new_accepted_proposal.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+load_add_accepted_proposal_scripts();
+{% endblock %}
+{% block body %}
+<div class="container body">
+	<div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post" enctype="multipart/form-data" id="add_proposal_form">{% csrf_token %}
+          <fieldset>
+            <legend class="text-center">{% trans "New Accepted Proposal" %}</legend>
+            
+            
+            
+           <div class="form-group">
+              <label class="col-md-2 control-label" for="name">{% trans "Attached files" %}</label>
+              <div class="col-md-9">
+                <div class='table'>
+                    <div class='no_error'>  
+                                        <p class="upload_p">
+                                            {{ upload_form.file }}
+                                        </p>
+                    </div>
+                </div>
+              </div>
+           </div>
+            
+            
+            
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" name = "new_accepted_proposal_button" class="btn btn-primary btn-lg">{% trans "Upload" %}</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+{% endblock %}
+

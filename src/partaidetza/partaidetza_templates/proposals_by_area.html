@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/proposals.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<div class="container body">
+    <div class="row">
+		<div class="well">
+        <h1 class="text-center">{% trans "Proposal list by area" %}</h1>
+        <div class="list-group">
+        {% for area,proposal_list in proposals_by_area.items %}
+          <a href="/proposals?area={{ area.id }}" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive"  src="{{ STATIC_URL }}img/no_photo.jpg" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">{{ area.area }}</h4>
+                    
+                </div>
+                
+                <div class="col-md-3 text-center">
+                            <h2> <span>{{ proposal_list|length }}</span> <small> {% trans "proposals" %} </small></h2>
+    
+                       </div>
+                
+                
+            </a>
+            
+          {% endfor %}
+     
+          
+        </div>
+        </div>
+	</div>
+
+</div>
+{% endblock %}

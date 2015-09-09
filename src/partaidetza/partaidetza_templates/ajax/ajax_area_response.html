@@ -1,0 +1,5 @@
+{% if proposal %}
+<p id="id_area" class="list-group-item-text">{% for area in proposal.get_area_names %}
+                     <span class="label label-info">{{ area }}</span>
+                    {% endfor %}</p>
+{% endif %}

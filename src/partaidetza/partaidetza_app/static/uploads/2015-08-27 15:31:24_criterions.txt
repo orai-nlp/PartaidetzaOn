@@ -1,0 +1,13 @@
+('Genero berdintasuna bultzatzea'),
+('Bazterketa sozialeko arriskuan dauden herritarrak babestea (langabeak, etorri-berriak, gutxiengo etnikoak, adinekoak...'),
+('Minusbaliotasunak dituzten herritarren aldeko proposamenak izatea'),
+('Eskualdea osotasunean aintzat hartzen duten proposamenak izatea. Eragina denongana iristea. Denon artean zerbait egiteko aukera baliatzea'),
+('Aukeratutako proposamenek herri eta auzo guztietan eragina izatea. Herri/auzoen arteko banaketa eta oreka bermatzea. Auzoetan dauden beharrak aintzat hartzea, bereziki herri txikienetakoak'),
+('Inklusioa, aniztasuna, tolerantzia, kulturartekotasuna... bultzatzea. Justizia soziala bultzatzea. Enplegua (epe luzekoa eta kalitatezkoa) bultzatzea.'),
+('Herritar sare autonomoa eta parte hartzailea bideratzea, edota herritarren arteko sinergiak sortzea. Auzolana, batzarra eta herri-ondasunak sustatzea. Herritarrak ahalmentzea'),
+('Ingurumena, garapen iraunkorra eta jasangarritasuna sustatzea. Burujabetza (elikagaiena, energetikoa...) bultzatzea.'),
+('Tokiko kontsumoa eta ekonomia sustatzen duten proposamenak, elkartasunean oinarrituak eta jasangarriak'),
+('Euskararen normalizaziorako eta erabilera sustatzeko lagungarri izatea'),
+('11 Herrietan dauden ase gabeko azpiegitura eta ekipamendu beharrei erantzutea, lurraldearen orekaren barruan. Herrietako oinarrizko beharrei erantzutea. Dauden azpiegiturak aprobetxatzea eta berriz pentsatzea, herritarren beharrei erantzuna ematea, eta balio anitzetarako izatea'),
+('Denboran iraunkorrak izatea. Egitasmo txikiak lehenestea, azpiegitura handien aldean. Etorkizunean bertako baliabideak ustiatzeko pizgarria izatea'),
+('Egingo diren ekimenak herritarrek epe motzean antzematea, ikusi/ukitu daitezkeen kontuak izatea')

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/manage_criterions.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+manage_criterion_scripts();
+{% endblock %}
+{% block body %}
+
+
+
+<div class="container body">
+    <h1>{% trans "Manage criterions" %}</h1>
+    <form action="#" method="POST" id="manage_criterions_form" >{% csrf_token %}
+	    <table id="criterions_table" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>{% trans "id" %}</th>
+                    <th>{% trans "Title" %}</th>
+                    {% for criterion in criterion_list %}
+                        <th title="{{ criterion.criterion }}">{{ criterion.id }}</th>
+                    {% endfor %}
+                    <th></th>
+                </tr>
+            </thead>
+     
+            
+     
+            <tbody>
+                {% for proposal in proposal_list %}
+                    <tr id="{{ proposal.id }}">
+                        <td>{{ proposal.id }}</td>
+                        <td>{{ proposal|get_title:LANGUAGE_CODE|safe }}</td>
+                        {% with proposal.id as key %}
+                            {% with proposal_criterions|get_dict_element:key as forms %}
+                                {{ forms.management_form }}
+                                {% for form in proposal_criterions|get_dict_element:key %}
+                                    <td>{{ form.criterion }}{{ form.changed }}</td>
+                                    
+                                {% endfor %}
+                            {% endwith %}
+                        {% endwith %}
+                        <td><a href="/proposal/{{ proposal.id }}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a></td>
+                    </tr>    
+                {% endfor %}        
+            </tbody>
+        </table>
+        <div class="col-md-12 text-right">
+            <button type="submit" name="manage_criterions_button" class="btn btn-primary btn-lg">{% trans "Save" %}</button>
+        </div>
+    </form>
+	
+	
+	
+</div>
+{% endblock %}
+{% block additional_scripts2 %}
+<script src="{{ STATIC_URL }}js/jquery.dataTables.min.js"></script>
+{% endblock %}

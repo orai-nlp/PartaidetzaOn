@@ -1,0 +1,18 @@
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+<div class="well">
+        <div class="calendar_div">
+	                <div class="col-sm-4" id="id_agenda"></div>
+	                
+	                <div class="col-sm-6">
+	                    {% if events|length > 0 %}
+                            {% for event in events %}
+	                                <p><strong><em>{{ event.date|date:"SHORT_DATE_FORMAT" }}:</em></strong> {{ event|get_content:LANGUAGE_CODE|safe }}</p>
+	                            {% endfor %}
+	                    {% else %}
+	                        <strong><em>{% trans "There are no events" %}</em></strong>
+	                    {% endif %}
+	                </div>
+	    </div>
+</div>

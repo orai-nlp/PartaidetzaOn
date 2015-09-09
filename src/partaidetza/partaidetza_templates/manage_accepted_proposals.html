@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/manage_accepted_proposals.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+manage_accepted_proposal_scripts();
+{% endblock %}
+{% block body %}
+
+
+
+<div class="container body">
+    <h1>{% trans "Manage projects" %}</h1>
+    <a href="/delete_projects/" id ="id_delete_projects" class="btn btn-primary btn-lg">{% trans "Delete projects" %}</a>
+	<table id="projects_table" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>{% trans "id" %}</th>
+                <th>{% trans "Title" %}</th>
+                <th>{% trans "Summary" %}</th>                
+                <th>{% trans "Cost" %}</th>
+                <th>{% trans "Date" %}</th>
+                <th>{% trans "State" %}</th>
+                <th></th>
+            </tr>
+        </thead>
+ 
+        
+ 
+        <tbody>
+            {% for project in accepted_proposal_list %}
+                <tr id="{{ project.id }}">
+                    <td>{{ project.id }}</td>
+                    <td>{{ project|get_title:LANGUAGE_CODE|safe }}</td>
+                    <td>{{ project|get_summary:LANGUAGE_CODE|safe }}</td>
+                    <td>{{ project.cost }} €</td>
+                    <td>{{ project.date|date:"SHORT_DATE_FORMAT" }}</td>
+                    <td>{{ project.status.status }}</td>                    
+                    <td><a href="/accepted_proposal/{{ project.id }}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a></td>
+                </tr>    
+            {% endfor %}        
+        </tbody>
+    </table>
+	
+	
+	
+</div>
+{% endblock %}
+{% block additional_scripts2 %}
+<script src="{{ STATIC_URL }}js/jquery.dataTables.min.js"></script>
+{% endblock %}

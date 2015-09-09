@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/proposals.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<div class="container body">
+    <div class="row">
+		<div class="well">
+        <h1 class="text-center">{% trans "Proposal list" %}</h1>
+        <div class="list-group">
+          <a href="/proposal/1" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive"  src="https://c2.staticflickr.com/8/7253/7771843326_b7c709429b_b.jpg" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">Rotonda gehiago!</h4>
+                    <p class="list-group-item-text">Rotonda gehiago behar dira!</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2> 14240 <small> {% trans "votes" %} </small></h2>
+                    <button type="button" class="btn btn-primary btn-lg btn-block"> {% trans "Vote" %} </button> 
+                </div>
+          </a>
+          <!--<a href="/proposal/2" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive" src="https://urbandwalk.files.wordpress.com/2013/05/bidegorris-a-oz.jpg" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">Bidegorrien garbiketa boluntarioa</h4>
+                    <p class="list-group-item-text">Gure bidegorriak garbi mantentzeko herritarren partehartze boluntarioa bultzatu nahi da</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2> 12424 <small> {% trans "votes" %} </small></h2>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">{% trans "Vote" %}</button>
+                    <div class="stars">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                    </div>
+                    <p> Average 3.9 <small> / </small> 5 </p>
+                </div>
+          </a>
+          <a href="/proposal/3" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive" src="http://static.animalpolitico.com/wp-content/uploads/2012/09/Policia_Federal6.jpg" alt="placehold.it/350x250">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">Presentzia poliziala murriztu</h4>
+                    <p class="list-group-item-text">Azken aldian herritarrak adina polizia dago. Hau gelditu beharra dago!</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2> 13540 <small> votes </small></h2>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Vote Now!</button>
+
+                </div>
+          </a>-->
+        </div>
+        </div>
+	</div>
+</div>
+{% endblock %}

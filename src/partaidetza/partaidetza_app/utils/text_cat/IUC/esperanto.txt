@@ -1,0 +1,12 @@
+                     Eýropo, programaroj kaj Interreto:
+                           tutmondiøu per Unicode
+
+ Aliøu al la 10a Internacia Unicode-konferenco, en Mainz, Germanio. Øi
+ daýros de la 10a øis la 12a de marto 1997. La konferenco kunigos fakulojn
+ kaj spertulojn pri la jenaj temoj: Interreto kaj Unicode, adaptado al
+ internaciaj kaj lokaj kondiæoj, realigo de Unicode en mastrumaj sistemoj
+ kaj aplikprogramoj, litertiparoj, enpaøigado de teksto, kaj plurlingva
+ komputilumado.
+
+               Kiam la mondo volas paroli, øi parolas Unicode
+

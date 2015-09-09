@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/register.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+load_register_scripts();
+{% endblock %}
+{% block body %}
+<div class="container body">
+	<div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">{% csrf_token %}
+          <fieldset>
+            <legend class="text-center">{% trans "Register" %}</legend>
+    
+
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">{% trans "Name" %}*</label>
+              <div class="col-md-9">
+                {{ register_form.first_name }}
+                {{ register_form.first_name.errors }}
+              </div>
+            </div>
+            
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">{% trans "Surnames" %}*</label>
+              <div class="col-md-9">
+                {{ register_form.last_name }}
+                {{ register_form.last_name.errors }}
+              </div>
+            </div>
+            
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Genre" %}</label>
+              <div class="col-md-9">
+                {{ register_form.genre }}
+                {{ register_form.genre.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Birth date" %}</label>
+              <div class="col-md-9" title="{{ register_form.birth_date.help_text }}">
+                {{ register_form.birth_date }}
+                {{ register_form.birth_date.errors }}
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">{% trans "NAN" %}*</label>
+              <div class="col-md-9" title="{{ register_form.NAN.help_text }}">
+                {{ register_form.NAN }}
+                {{ register_form.NAN.errors }}
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="email">{% trans "Email" %}*</label>
+              <div class="col-md-9">
+                {{ register_form.email }}
+                {{ register_form.email.errors }}
+              </div>
+            </div>                             
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Institution" %}</label>
+              <div class="col-md-9">              
+                {{ register_form.institution }}
+                {{ register_form.institution.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group" id="id_institution_name_div">
+              <label class="col-md-2 control-label" for="message">{% trans "Institution name" %}</label>
+              <div class="col-md-9">
+                {{ register_form.institution_name }}
+                {{ register_form.institution_name.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Country" %}</label>
+              <div class="col-md-9">
+                {{ register_form.country }}
+                {{ register_form.country.errors }}
+              </div>
+            </div>         
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Password1" %}*</label>
+              <div class="col-md-9">
+                {{ register_form.password1 }}
+                {{ register_form.password1.errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Password2" %}*</label>
+              <div class="col-md-9">
+                {{ register_form.password2 }}
+                {{ register_form.password2.errors }}
+                {{ register_form.non_field_errors }}
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="message">{% trans "Info" %}</label>
+              <div class="col-md-9">              
+                {{ register_form.info }}
+                {{ register_form.info.errors }}
+              </div>
+            </div>
+            
+            
+            
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" name = "register_button" class="btn btn-primary btn-lg">{% trans "Register" %}</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+{% endblock %}

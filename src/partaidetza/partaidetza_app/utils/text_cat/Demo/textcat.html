@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>TextCat Language Guesser Demo</title>
+<link rel=stylesheet href="/~vannoord/vn.css" type="text/css">
+    <meta name="keywords"
+      content="language identification, language guessing,
+               language categorization, text categorization, TextCat>
+    <meta name="description"
+      content="automatically determine the language of a given text">
+  </head>
+<frameset rows="45%, 25%, 30%">
+   <frame name="invoer" marginwidth=0
+                        marginheight=0
+                        scrolling="yes"
+                        src="textcat_src.html">
+   <frame name="list"   marginwidth=0
+                        marginheight=0
+                        scrolling="yes"
+                        src="../list.html">
+   <frame name="uitvoer" marginwidth=0
+                         marginheight=0
+                         scrolling="yes"
+                         src="empty.html">
+</frameset>
+
+<noframes>
+
+
+  <body>
+
+    <h1><a href="..">TextCat Language Guesser</a> Demo</h1>
+
+This is a demonstration of a language guesser, as proposed in
+<a href="http://spd.erim.org/jt_papers/sdair-94-bc.ps.gz">
+Cavnar, Trenkle, <b>N-Gram-Based Text Categorization</b></a>. 
+It's implemented in Perl. You can get the programme under GPL
+certain copyright conditions <a href="../">here</a>. For free! No commercial
+version available! <a href="../competitors.html">The competitors!</a>
+
+
+<form action="http://www.let.rug.nl/~vannoord/bin/tc"> Type some text. The more text
+you provide, the more reliable the guesser works.<BR>
+
+<textarea name="a1" rows=6 cols=60></textarea><BR>
+
+
+<P>
+<input type="submit" value="Guess!"> 
+
+<input type="reset" value="Remove!">
+
+</form>
+
+<h2>LIST OF LANGUAGES currently supported. </h2>
+But some languages are only supported in certain encodings...
+
+<ol>
+<li><a href="../ShortTexts/afrikaans.txt">afrikaans</a>
+<li><a href="../ShortTexts/albanian.txt">albanian</a>
+<li><a href="../ShortTexts/amharic-utf.txt">amharic-utf</a>
+<li><a href="../ShortTexts/arabic-iso8859_6.txt">arabic-iso8859_6</a>
+<li><a href="../ShortTexts/arabic-windows1256.txt">arabic-windows1256</a>
+<li><a href="../ShortTexts/armenian.txt">armenian</a>
+<li><a href="../ShortTexts/basque.txt">basque</a>
+<li><a href="../ShortTexts/belarus-windows1251.txt">belarus-windows1251</a>
+<li><a href="../ShortTexts/bosnian.txt">bosnian</a>
+<li><a href="../ShortTexts/breton.txt">breton</a>
+<li><a href="../ShortTexts/bulgarian-iso8859_5.txt">bulgarian-iso8859_5</a>
+<li><a href="../ShortTexts/catalan.txt">catalan</a>
+<li><a href="../ShortTexts/chinese-big5.txt">chinese-big5</a>
+<li><a href="../ShortTexts/chinese-gb2312.txt">chinese-gb2312</a>
+<li><a href="../ShortTexts/croatian-ascii.txt">croatian-ascii</a>
+<li><a href="../ShortTexts/czech-iso8859_2.txt">czech-iso8859_2</a>
+<li><a href="../ShortTexts/danish.txt">danish</a>
+<li><a href="../ShortTexts/dutch.txt">dutch</a>
+<li><a href="../ShortTexts/english.txt">english</a>
+<li><a href="../ShortTexts/esperanto.txt">esperanto</a>
+<li><a href="../ShortTexts/estonian.txt">estonian</a>
+<li><a href="../ShortTexts/finnish.txt">finnish</a>
+<li><a href="../ShortTexts/french.txt">french</a>
+<li><a href="../ShortTexts/frisian.txt">frisian</a>
+<li><a href="../ShortTexts/georgian.txt">georgian</a>
+<li><a href="../ShortTexts/german.txt">german</a>
+<li><a href="../ShortTexts/greek-iso8859-7.txt">greek-iso8859-7</a>
+<li><a href="../ShortTexts/hawaian.txt">hawaian</a>
+<li><a href="../ShortTexts/hebrew-iso8859_8.txt">hebrew-iso8859_8</a>
+<li><a href="../ShortTexts/hindi.txt">hindi</a>
+<li><a href="../ShortTexts/hungarian.txt">hungarian</a>
+<li><a href="../ShortTexts/icelandic.txt">icelandic</a>
+<li><a href="../ShortTexts/indonesian.txt">indonesian</a>
+<li><a href="../ShortTexts/irish.txt">irish</a>
+<li><a href="../ShortTexts/italian.txt">italian</a>
+<li><a href="../ShortTexts/japanese-euc_jp.txt">japanese-euc_jp</a>
+<li><a href="../ShortTexts/japanese-shift_jis.txt">japanese-shift_jis</a>
+<li><a href="../ShortTexts/korean.txt">korean</a>
+<li><a href="../ShortTexts/latin.txt">latin</a>
+<li><a href="../ShortTexts/latvian.txt">latvian</a>
+<li><a href="../ShortTexts/lithuanian.txt">lithuanian</a>
+<li><a href="../ShortTexts/malay.txt">malay</a>
+<li><a href="../ShortTexts/marathi.txt">marathi</a>
+<li><a href="../ShortTexts/middle_frisian.txt">middle_frisian</a>
+<li><a href="../ShortTexts/mingo.txt">mingo</a>
+<li><a href="../ShortTexts/nepali.txt">nepali</a>
+<li><a href="../ShortTexts/norwegian.txt">norwegian</a>
+<li><a href="../ShortTexts/persian.txt">persian</a>
+<li><a href="../ShortTexts/polish.txt">polish</a>
+<li><a href="../ShortTexts/portuguese.txt">portuguese</a>
+<li><a href="../ShortTexts/quechua.txt">quechua</a>
+<li><a href="../ShortTexts/romanian.txt">romanian</a>
+<li><a href="../ShortTexts/russian-iso8859_5.txt">russian-iso8859_5</a>
+<li><a href="../ShortTexts/russian-koi8_r.txt">russian-koi8_r</a>
+<li><a href="../ShortTexts/russian-windows1251.txt">russian-windows1251</a>
+<li><a href="../ShortTexts/sanskrit.txt">sanskrit</a>
+<li><a href="../ShortTexts/scots.txt" target=output>scots</a>
+<li><a href="../ShortTexts/scots_gaelic.txt" target=output>scots_gaelic</a>
+<li><a href="../ShortTexts/serbian-ascii.txt">serbian-ascii</a>
+<li><a href="../ShortTexts/slovak-ascii.txt">slovak-ascii</a>
+<li><a href="../ShortTexts/slovak-windows1250.txt">slovak-windows1250</a>
+<li><a href="../ShortTexts/slovenian-ascii.txt">slovenian-ascii</a>
+<li><a href="../ShortTexts/slovenian-iso8859_2.txt">slovenian-iso8859_2</a>
+<li><a href="../ShortTexts/spanish.txt">spanish</a>
+<li><a href="../ShortTexts/swahili.txt">swahili</a>
+<li><a href="../ShortTexts/swedish.txt">swedish</a>
+<li><a href="../ShortTexts/tagalog.txt">tagalog</a>
+<li><a href="../ShortTexts/tamil.txt">tamil</a>
+<li><a href="../ShortTexts/thai.txt">thai</a>
+<li><a href="../ShortTexts/turkish.txt">turkish</a>
+<li><a href="../ShortTexts/ukrainian-koi8_u.txt">ukrainian-koi8_u</a>
+<li><a href="../ShortTexts/vietnamese.txt">vietnamese</a>
+<li><a href="../ShortTexts/welsh.txt">welsh</a>
+<li><a href="../ShortTexts/yiddish-utf.txt">yiddish-utf</a>
+</ol>
+
+    <hr>
+    <address><a href="mailto:vannoord@let.rug.nl">Gertjan van Noord</a></address>
+<!-- Created: Thu Oct 23 09:58:47 METDST 1997 -->
+<!-- hhmts start -->
+Last modified: Tue Jan  5 15:07:42 MET 1999
+<!-- hhmts end -->
+  </body>
+</html>

@@ -1,0 +1,1120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 11:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+
+#: src/partaidetza/partaidetza_app/forms.py:19
+#: src/partaidetza/partaidetza_app/forms.py:23
+#: src/partaidetza/partaidetza_app/forms.py:118
+#: src/partaidetza/partaidetza_app/forms.py:123
+#: src/partaidetza/partaidetza_app/forms.py:226
+#: src/partaidetza/partaidetza_app/forms.py:231
+#: src/partaidetza/partaidetza_templates/profile.html:54
+#: src/partaidetza/partaidetza_templates/register.html:54
+msgid "NAN"
+msgstr "DNI"
+
+#: src/partaidetza/partaidetza_app/forms.py:28
+msgid "password"
+msgstr "contraseña"
+
+#: src/partaidetza/partaidetza_app/forms.py:32
+#: src/partaidetza/partaidetza_templates/login.html:17
+msgid "Password"
+msgstr "Contraseña"
+
+#: src/partaidetza/partaidetza_app/forms.py:51
+msgid ""
+"Please enter a correct NAN and password. Note that both fields are case-"
+"sensitive."
+msgstr ""
+"Por favor, introduce un DNI y contraseña correctos. Recuerda que ambos "
+"campos distinguen mayúsculas y minúsculas"
+
+#: src/partaidetza/partaidetza_app/forms.py:53
+msgid "This account is inactive."
+msgstr "Esta cuenta esta inactiva"
+
+#: src/partaidetza/partaidetza_app/forms.py:71
+#: src/partaidetza/partaidetza_app/forms.py:75
+#: src/partaidetza/partaidetza_app/forms.py:179
+#: src/partaidetza/partaidetza_app/forms.py:183
+#: src/partaidetza/partaidetza_templates/profile.html:20
+#: src/partaidetza/partaidetza_templates/register.html:20
+msgid "Name"
+msgstr "Nombre"
+
+#: src/partaidetza/partaidetza_app/forms.py:80
+#: src/partaidetza/partaidetza_app/forms.py:84
+#: src/partaidetza/partaidetza_app/forms.py:89
+#: src/partaidetza/partaidetza_app/forms.py:188
+#: src/partaidetza/partaidetza_app/forms.py:192
+#: src/partaidetza/partaidetza_app/forms.py:197
+msgid "Surname"
+msgstr "Apellidos"
+
+#: src/partaidetza/partaidetza_app/forms.py:93
+#: src/partaidetza/partaidetza_app/forms.py:201
+#: src/partaidetza/partaidetza_templates/profile.html:63
+#: src/partaidetza/partaidetza_templates/register.html:63
+msgid "Email"
+msgstr "Correo"
+
+#: src/partaidetza/partaidetza_app/forms.py:98
+#: src/partaidetza/partaidetza_app/forms.py:103
+#: src/partaidetza/partaidetza_app/forms.py:108
+#: src/partaidetza/partaidetza_app/forms.py:206
+#: src/partaidetza/partaidetza_app/forms.py:211
+#: src/partaidetza/partaidetza_app/forms.py:216
+#: src/partaidetza/partaidetza_templates/profile.html:38
+#: src/partaidetza/partaidetza_templates/register.html:38
+msgid "Genre"
+msgstr "Género"
+
+#: src/partaidetza/partaidetza_app/forms.py:110
+#: src/partaidetza/partaidetza_app/forms.py:218
+#: src/partaidetza/partaidetza_app/forms.py:499
+msgid "Example: 1954-03-21"
+msgstr "Ejemplo: 1954-03-21"
+
+#: src/partaidetza/partaidetza_app/forms.py:113
+#: src/partaidetza/partaidetza_app/forms.py:221
+#: src/partaidetza/partaidetza_templates/profile.html:46
+#: src/partaidetza/partaidetza_templates/register.html:46
+msgid "Birth date"
+msgstr "Fecha de nacimiento"
+
+#: src/partaidetza/partaidetza_app/forms.py:120
+#: src/partaidetza/partaidetza_app/forms.py:228
+msgid "Example: 12345678J"
+msgstr "Ejemplo 12345678J"
+
+#: src/partaidetza/partaidetza_app/forms.py:128
+#: src/partaidetza/partaidetza_app/forms.py:236
+msgid "institution"
+msgstr "institución"
+
+#: src/partaidetza/partaidetza_app/forms.py:131
+#: src/partaidetza/partaidetza_app/forms.py:239
+#: src/partaidetza/partaidetza_templates/profile.html:71
+#: src/partaidetza/partaidetza_templates/register.html:71
+msgid "Institution"
+msgstr "Institución"
+
+#: src/partaidetza/partaidetza_app/forms.py:137
+#: src/partaidetza/partaidetza_app/forms.py:141
+#: src/partaidetza/partaidetza_app/forms.py:245
+#: src/partaidetza/partaidetza_app/forms.py:249
+#: src/partaidetza/partaidetza_templates/profile.html:79
+#: src/partaidetza/partaidetza_templates/register.html:79
+msgid "Institution name"
+msgstr "Nombre de institución"
+
+#: src/partaidetza/partaidetza_app/forms.py:146
+#: src/partaidetza/partaidetza_app/forms.py:150
+#: src/partaidetza/partaidetza_app/forms.py:254
+#: src/partaidetza/partaidetza_app/forms.py:258
+#: src/partaidetza/partaidetza_templates/profile.html:87
+#: src/partaidetza/partaidetza_templates/register.html:87
+msgid "Country"
+msgstr "Población"
+
+#: src/partaidetza/partaidetza_app/forms.py:155
+#: src/partaidetza/partaidetza_app/forms.py:158
+#: src/partaidetza/partaidetza_app/forms.py:263
+#: src/partaidetza/partaidetza_app/forms.py:266
+#: src/partaidetza/partaidetza_templates/profile.html:95
+#: src/partaidetza/partaidetza_templates/register.html:112
+msgid "Info"
+msgstr "Deseo recibir más información"
+
+#: src/partaidetza/partaidetza_app/forms.py:165
+#: src/partaidetza/partaidetza_app/forms.py:293
+msgid "The NAN you have entered is not correct"
+msgstr "El DNI introducido no es correcto"
+
+#: src/partaidetza/partaidetza_app/forms.py:167
+#: src/partaidetza/partaidetza_app/forms.py:295
+msgid "The NAN you have entered is registered."
+msgstr "El DNI introducido ya está registrado"
+
+#: src/partaidetza/partaidetza_app/forms.py:272
+msgid "password1"
+msgstr "contraseña1"
+
+#: src/partaidetza/partaidetza_app/forms.py:276
+#: src/partaidetza/partaidetza_templates/register.html:95
+msgid "Password1"
+msgstr "Contraseña1"
+
+#: src/partaidetza/partaidetza_app/forms.py:281
+msgid "password2"
+msgstr "contraseña2"
+
+#: src/partaidetza/partaidetza_app/forms.py:285
+#: src/partaidetza/partaidetza_templates/register.html:103
+msgid "Password2"
+msgstr "Contraseña2"
+
+#: src/partaidetza/partaidetza_app/forms.py:304
+msgid "Passwords don't match"
+msgstr "Las contraseñas no coinciden"
+
+#: src/partaidetza/partaidetza_app/forms.py:314
+#: src/partaidetza/partaidetza_app/forms.py:319
+#: src/partaidetza/partaidetza_app/forms.py:553
+#: src/partaidetza/partaidetza_app/forms.py:558
+#: src/partaidetza/partaidetza_app/forms.py:580
+#: src/partaidetza/partaidetza_app/forms.py:585
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:614
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:37
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:504
+#: src/partaidetza/partaidetza_templates/new_proposal.html:379
+#: src/partaidetza/partaidetza_templates/proposal.html:358
+msgid "Area"
+msgstr "Area"
+
+#: src/partaidetza/partaidetza_app/forms.py:324
+#: src/partaidetza/partaidetza_app/forms.py:328
+#: src/partaidetza/partaidetza_app/forms.py:623
+#: src/partaidetza/partaidetza_app/forms.py:627
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:687
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:202
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:579
+#: src/partaidetza/partaidetza_templates/new_proposal.html:454
+#: src/partaidetza/partaidetza_templates/proposal.html:431
+msgid "Recipient number"
+msgstr "Número de beneficiarios"
+
+#: src/partaidetza/partaidetza_app/forms.py:333
+#: src/partaidetza/partaidetza_app/forms.py:337
+#: src/partaidetza/partaidetza_app/forms.py:595
+#: src/partaidetza/partaidetza_app/forms.py:599
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:651
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:25
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:25
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:26
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:329
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:543
+#: src/partaidetza/partaidetza_templates/new_proposal.html:418
+#: src/partaidetza/partaidetza_templates/proposal.html:395
+msgid "Cost"
+msgstr "Coste"
+
+#: src/partaidetza/partaidetza_app/forms.py:345
+#: src/partaidetza/partaidetza_app/forms.py:352
+#: src/partaidetza/partaidetza_app/forms.py:608
+#: src/partaidetza/partaidetza_app/forms.py:615
+#: src/partaidetza/partaidetza_app/forms.py:637
+msgid "This value must be a number"
+msgstr "Este valor debe de ser un número"
+
+#: src/partaidetza/partaidetza_app/forms.py:360
+#: src/partaidetza/partaidetza_app/forms.py:364
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:612
+msgid "Proposal"
+msgstr "Propuesta"
+
+#: src/partaidetza/partaidetza_app/forms.py:370
+#: src/partaidetza/partaidetza_app/forms.py:375
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:27
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:30
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:645
+msgid "State"
+msgstr "Estado"
+
+#: src/partaidetza/partaidetza_app/forms.py:384
+msgid "There is no proposal with this ID"
+msgstr "No hay ninguna propuesta con este identificador"
+
+#: src/partaidetza/partaidetza_app/forms.py:393
+#: src/partaidetza/partaidetza_app/forms.py:397
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:23
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:23
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:23
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:24
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:45 src/partaidetza/partaidetza_templates/searchbox.html:43
+msgid "Title"
+msgstr "Título"
+
+#: src/partaidetza/partaidetza_app/forms.py:405
+#: src/partaidetza/partaidetza_app/forms.py:409
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:101
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:24
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:24
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:25
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:84
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:106
+#: src/partaidetza/partaidetza_templates/new_proposal.html:107
+#: src/partaidetza/partaidetza_templates/proposal.html:102
+#: src/partaidetza/partaidetza_templates/searchbox.html:44
+msgid "Summary"
+msgstr "Resumen"
+
+#: src/partaidetza/partaidetza_app/forms.py:417
+#: src/partaidetza/partaidetza_app/forms.py:421
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:159
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:123
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:169
+#: src/partaidetza/partaidetza_templates/new_proposal.html:170
+#: src/partaidetza/partaidetza_templates/proposal.html:160
+#: src/partaidetza/partaidetza_templates/searchbox.html:46
+msgid "Necessity"
+msgstr "¿A que necesidad responde esta propuesta?"
+
+#: src/partaidetza/partaidetza_app/forms.py:428
+#: src/partaidetza/partaidetza_app/forms.py:432
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:217
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:162
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:232
+#: src/partaidetza/partaidetza_templates/new_proposal.html:233
+#: src/partaidetza/partaidetza_templates/proposal.html:218
+#: src/partaidetza/partaidetza_templates/searchbox.html:45
+msgid "Recipient"
+msgstr "¿Quien o que es el beneficiario?"
+
+#: src/partaidetza/partaidetza_app/forms.py:439
+#: src/partaidetza/partaidetza_app/forms.py:443
+#: src/partaidetza/partaidetza_app/forms.py:544
+#: src/partaidetza/partaidetza_app/forms.py:549
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:275
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:211
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:296
+#: src/partaidetza/partaidetza_templates/new_proposal.html:297
+#: src/partaidetza/partaidetza_templates/proposal.html:276
+#: src/partaidetza/partaidetza_templates/searchbox.html:47
+msgid "Where"
+msgstr "Donde"
+
+#: src/partaidetza/partaidetza_app/forms.py:450
+#: src/partaidetza/partaidetza_app/forms.py:454
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:366
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:249
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:360
+msgid "Source"
+msgstr "Procedencia"
+
+#: src/partaidetza/partaidetza_app/forms.py:461
+#: src/partaidetza/partaidetza_app/forms.py:465
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:424
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:287
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:423
+msgid "Explanation"
+msgstr "Preguntas y comentarios"
+
+#: src/partaidetza/partaidetza_app/forms.py:473
+msgid "coodinates"
+msgstr "coordenadas"
+
+#: src/partaidetza/partaidetza_app/forms.py:477
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: src/partaidetza/partaidetza_app/forms.py:486
+#: src/partaidetza/partaidetza_app/forms.py:490
+#: src/partaidetza/partaidetza_templates/add_event.html:28
+msgid "Event"
+msgstr "Evento"
+
+#: src/partaidetza/partaidetza_app/forms.py:497
+#: src/partaidetza/partaidetza_app/forms.py:502
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:26
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:26
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:27
+msgid "Date"
+msgstr "Fecha"
+
+#: src/partaidetza/partaidetza_app/forms.py:535
+#: src/partaidetza/partaidetza_app/forms.py:540
+msgid "Type"
+msgstr "Tipo"
+
+#: src/partaidetza/partaidetza_app/forms.py:537
+msgid "proposal"
+msgstr "propuesta"
+
+#: src/partaidetza/partaidetza_app/forms.py:537
+msgid "project"
+msgstr "proyecto"
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "title"
+msgstr "título"
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "summary"
+msgstr "resumen"
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "necessity"
+msgstr "¿A que necesidad responde esta propuesta?"
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "recipient"
+msgstr "¿Quien o que es el beneficiario?"
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "where"
+msgstr "donde"
+
+#: src/partaidetza/partaidetza_app/forms.py:563
+#: src/partaidetza/partaidetza_app/forms.py:568
+#: src/partaidetza/partaidetza_templates/searchbox.html:18
+msgid "Language"
+msgstr "Idioma"
+
+#: src/partaidetza/partaidetza_app/forms.py:645
+#: src/partaidetza/partaidetza_app/forms.py:648
+#: src/partaidetza/partaidetza_app/forms.py:654
+#: src/partaidetza/partaidetza_templates/proposal.html:541
+msgid "Criterion"
+msgstr "Criterios"
+
+#: src/partaidetza/partaidetza_app/forms.py:657
+msgid "Changed"
+msgstr "Cambiado"
+
+#: src/partaidetza/partaidetza_app/forms.py:672
+#: src/partaidetza/partaidetza_app/forms.py:676
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:22
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:22
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:22
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:23
+msgid "id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:696
+#: src/partaidetza/partaidetza_app/forms.py:700
+#: src/partaidetza/partaidetza_app/forms.py:709
+#: src/partaidetza/partaidetza_app/forms.py:713
+msgid "Comment"
+msgstr "Comenta"
+
+#: src/partaidetza/partaidetza_app/forms.py:719
+#: src/partaidetza/partaidetza_app/forms.py:723
+msgid "parent_id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:38
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:42
+#: src/partaidetza/partaidetza_templates/new_proposal.html:43
+#: src/partaidetza/partaidetza_templates/proposal.html:38
+msgid "Edit title"
+msgstr "Editar título"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:42
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:115
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:173
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:231
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:289
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:380
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:438
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:20
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:46
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:125
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:188
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:252
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:316
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:380
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:443
+#: src/partaidetza/partaidetza_templates/new_proposal.html:47
+#: src/partaidetza/partaidetza_templates/new_proposal.html:126
+#: src/partaidetza/partaidetza_templates/new_proposal.html:189
+#: src/partaidetza/partaidetza_templates/new_proposal.html:253
+#: src/partaidetza/partaidetza_templates/new_proposal.html:317
+#: src/partaidetza/partaidetza_templates/proposal.html:42
+#: src/partaidetza/partaidetza_templates/proposal.html:116
+#: src/partaidetza/partaidetza_templates/proposal.html:174
+#: src/partaidetza/partaidetza_templates/proposal.html:232
+#: src/partaidetza/partaidetza_templates/proposal.html:290
+msgid "The chosen language by default in the edit fields is "
+msgstr "El idioma seleccionado por defecto en los campos editables es "
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:58
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:131
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:189
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:247
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:305
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:396
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:454
+#: src/partaidetza/partaidetza_templates/add_event.html:43
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:60 (kopia).html:99 (kopia).html:138 (kopia).html:177
+#: (kopia).html:226 (kopia).html:264 (kopia).html:302
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:62
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:141
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:204
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:268
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:332
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:396
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:459
+#: src/partaidetza/partaidetza_templates/new_proposal.html:63
+#: src/partaidetza/partaidetza_templates/new_proposal.html:142
+#: src/partaidetza/partaidetza_templates/new_proposal.html:205
+#: src/partaidetza/partaidetza_templates/new_proposal.html:269
+#: src/partaidetza/partaidetza_templates/new_proposal.html:333
+#: src/partaidetza/partaidetza_templates/proposal.html:58
+#: src/partaidetza/partaidetza_templates/proposal.html:132
+#: src/partaidetza/partaidetza_templates/proposal.html:190
+#: src/partaidetza/partaidetza_templates/proposal.html:248
+#: src/partaidetza/partaidetza_templates/proposal.html:306
+msgid "Translate text"
+msgstr "Traduce el texto"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:76
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:149
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:207
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:265
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:323
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:352
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:414
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:472
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:642
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:677
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:712
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:767
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:80
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:159
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:222
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:286
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:350
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:414
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:477
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:534
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:569
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:604
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:637
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:670
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:716
+#: src/partaidetza/partaidetza_templates/new_proposal.html:81
+#: src/partaidetza/partaidetza_templates/new_proposal.html:160
+#: src/partaidetza/partaidetza_templates/new_proposal.html:223
+#: src/partaidetza/partaidetza_templates/new_proposal.html:287
+#: src/partaidetza/partaidetza_templates/new_proposal.html:351
+#: src/partaidetza/partaidetza_templates/new_proposal.html:409
+#: src/partaidetza/partaidetza_templates/new_proposal.html:444
+#: src/partaidetza/partaidetza_templates/new_proposal.html:479
+#: src/partaidetza/partaidetza_templates/new_proposal.html:525
+#: src/partaidetza/partaidetza_templates/proposal.html:76
+#: src/partaidetza/partaidetza_templates/proposal.html:150
+#: src/partaidetza/partaidetza_templates/proposal.html:208
+#: src/partaidetza/partaidetza_templates/proposal.html:266
+#: src/partaidetza/partaidetza_templates/proposal.html:324
+#: src/partaidetza/partaidetza_templates/proposal.html:386
+#: src/partaidetza/partaidetza_templates/proposal.html:421
+#: src/partaidetza/partaidetza_templates/proposal.html:456
+#: src/partaidetza/partaidetza_templates/proposal.html:512
+#: src/partaidetza/partaidetza_templates/proposal.html:561
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:77
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:150
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:208
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:266
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:324
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:353
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:415
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:473
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:643
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:678
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:713
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:768
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:81
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:160
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:223
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:287
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:351
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:415
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:478
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:535
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:570
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:605
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:638
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:671
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:717
+#: src/partaidetza/partaidetza_templates/new_proposal.html:82
+#: src/partaidetza/partaidetza_templates/new_proposal.html:161
+#: src/partaidetza/partaidetza_templates/new_proposal.html:224
+#: src/partaidetza/partaidetza_templates/new_proposal.html:288
+#: src/partaidetza/partaidetza_templates/new_proposal.html:352
+#: src/partaidetza/partaidetza_templates/new_proposal.html:410
+#: src/partaidetza/partaidetza_templates/new_proposal.html:445
+#: src/partaidetza/partaidetza_templates/new_proposal.html:480
+#: src/partaidetza/partaidetza_templates/new_proposal.html:526
+#: src/partaidetza/partaidetza_templates/proposal.html:77
+#: src/partaidetza/partaidetza_templates/proposal.html:151
+#: src/partaidetza/partaidetza_templates/proposal.html:209
+#: src/partaidetza/partaidetza_templates/proposal.html:267
+#: src/partaidetza/partaidetza_templates/proposal.html:325
+#: src/partaidetza/partaidetza_templates/proposal.html:387
+#: src/partaidetza/partaidetza_templates/proposal.html:422
+#: src/partaidetza/partaidetza_templates/proposal.html:457
+#: src/partaidetza/partaidetza_templates/proposal.html:513
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:92
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:96
+#: src/partaidetza/partaidetza_templates/new_proposal.html:97
+#: src/partaidetza/partaidetza_templates/proposal.html:92
+msgid "Creation data"
+msgstr "Fecha de creación"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:111
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:121
+#: src/partaidetza/partaidetza_templates/new_proposal.html:122
+#: src/partaidetza/partaidetza_templates/proposal.html:112
+msgid "Edit summary"
+msgstr "Editar Resumen"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:169
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:184
+#: src/partaidetza/partaidetza_templates/new_proposal.html:185
+#: src/partaidetza/partaidetza_templates/proposal.html:170
+msgid "Edit necessity"
+msgstr "Editar Necesidad"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:227
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:248
+#: src/partaidetza/partaidetza_templates/new_proposal.html:249
+#: src/partaidetza/partaidetza_templates/proposal.html:228
+msgid "Edit recipient"
+msgstr "Editar Beneficiario"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:285
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:312
+#: src/partaidetza/partaidetza_templates/new_proposal.html:313
+#: src/partaidetza/partaidetza_templates/proposal.html:286
+msgid "Edit where"
+msgstr "Editar donde"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:341
+msgid "Edit map"
+msgstr "Editar mapa"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:376
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:376
+msgid "Edit source"
+msgstr "Editar procedencia"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:434
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:439
+msgid "Edit explanation"
+msgstr "Editar preguntas y comentarios"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:518
+msgid "Respond"
+msgstr "Responder"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:605
+msgid "Related projects"
+msgstr "Proyectos relacionados"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:630
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:522
+#: src/partaidetza/partaidetza_templates/new_proposal.html:397
+#: src/partaidetza/partaidetza_templates/proposal.html:374
+msgid "Edit area"
+msgstr "Editar area"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:665
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:557
+#: src/partaidetza/partaidetza_templates/new_proposal.html:432
+#: src/partaidetza/partaidetza_templates/proposal.html:409
+msgid "Edit cost"
+msgstr "Editar coste"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:700
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:743
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:592
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:625
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:658
+#: src/partaidetza/partaidetza_templates/new_proposal.html:467
+#: src/partaidetza/partaidetza_templates/proposal.html:444
+#: src/partaidetza/partaidetza_templates/proposal.html:487
+msgid "Edit recipient number"
+msgstr "Editar número de beneficiarios"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:721
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:679
+#: src/partaidetza/partaidetza_templates/new_proposal.html:488
+#: src/partaidetza/partaidetza_templates/proposal.html:465
+msgid "Attached documents"
+msgstr "Documentos añadidos"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:777
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:29
+#: src/partaidetza/partaidetza_templates/search_results.html:49
+#: src/partaidetza/partaidetza_templates/vote.html:23
+#: src/partaidetza/partaidetza_templates/vote.html:38
+msgid "votes"
+msgstr "votos"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:779
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:31
+#: src/partaidetza/partaidetza_templates/search_results.html:51
+msgid "Already voted"
+msgstr "Votado"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:779
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:781
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:31
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:33
+#: src/partaidetza/partaidetza_templates/base.html:120
+#: src/partaidetza/partaidetza_templates/home.html:34
+#: src/partaidetza/partaidetza_templates/proposals.html:33
+#: src/partaidetza/partaidetza_templates/search_results.html:51
+#: src/partaidetza/partaidetza_templates/search_results.html:53
+#: src/partaidetza/partaidetza_templates/vote.html:24
+#: src/partaidetza/partaidetza_templates/vote.html:39
+msgid "Vote"
+msgstr "Votar"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:12
+msgid "Accepted proposal list"
+msgstr "Lista de propuestas aceptadas"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals_by_area.html:12
+msgid "Accepted proposal list by area"
+msgstr "Lista de propuestas aceptadas por areas"
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals_by_area.html:27
+#: src/partaidetza/partaidetza_templates/proposals_by_area.html:27
+msgid "proposals"
+msgstr "propuestas"
+
+#: src/partaidetza/partaidetza_templates/add_event.html:20
+msgid "New Event"
+msgstr "Nuevo Evento"
+
+#: src/partaidetza/partaidetza_templates/add_event.html:22
+msgid "Data"
+msgstr "Fecha"
+
+#: src/partaidetza/partaidetza_templates/add_event.html:62
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:78 (kopia).html:117 (kopia).html:156 (kopia).html:196
+#: (kopia).html:244 (kopia).html:282 (kopia).html:320
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:34
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:114
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:177
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:241
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:304
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:368
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:431
+#: src/partaidetza/partaidetza_templates/new_proposal.html:35
+#: src/partaidetza/partaidetza_templates/new_proposal.html:115
+#: src/partaidetza/partaidetza_templates/new_proposal.html:178
+#: src/partaidetza/partaidetza_templates/new_proposal.html:242
+#: src/partaidetza/partaidetza_templates/new_proposal.html:305
+msgid "It seems that the inserted text is not in the correct language"
+msgstr "Parece que el texto introducido no esta en el idioma correcto"
+
+#: src/partaidetza/partaidetza_templates/add_event.html:68
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:361
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:730
+#: src/partaidetza/partaidetza_templates/new_proposal.html:539
+msgid ""
+"It seems that the language is not correct in some inputs, do you want to "
+"continue?"
+msgstr ""
+"Parece que el idioma no es correcto en alguno de los datos introducidos, "
+"¿deseas continuar?"
+
+#: src/partaidetza/partaidetza_templates/add_event.html:68
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:361
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:730
+#: src/partaidetza/partaidetza_templates/new_proposal.html:539
+msgid "Create"
+msgstr "Crear"
+
+#: src/partaidetza/partaidetza_templates/ajax/related_documents.html:5
+msgid "Did you mean?"
+msgstr "¿Quiza querias decir?"
+
+#: src/partaidetza/partaidetza_templates/base.html:14
+#: src/partaidetza/partaidetza_templates/base.html:90
+msgid "Partaidetza ON"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:95
+msgid "Presentation"
+msgstr "Presentación"
+
+#: src/partaidetza/partaidetza_templates/base.html:97
+msgid "Methodology"
+msgstr "Metodología"
+
+#: src/partaidetza/partaidetza_templates/base.html:98
+msgid "Steps"
+msgstr "Pasos"
+
+#: src/partaidetza/partaidetza_templates/base.html:99
+msgid "How to participate"
+msgstr "Como participar"
+
+#: src/partaidetza/partaidetza_templates/base.html:100
+msgid "Proposal acceptation criterion"
+msgstr "Criterios para aceptar una propuesta"
+
+#: src/partaidetza/partaidetza_templates/base.html:101
+msgid "Participation agenda"
+msgstr "Agenda de participación"
+
+#: src/partaidetza/partaidetza_templates/base.html:104
+msgid "Submit proposal"
+msgstr "Enviar propuesta"
+
+#: src/partaidetza/partaidetza_templates/base.html:106
+msgid "View proposals"
+msgstr "Ver propuestas"
+
+#: src/partaidetza/partaidetza_templates/base.html:108
+#: src/partaidetza/partaidetza_templates/base.html:116
+#: src/partaidetza/partaidetza_templates/searchbox.html:20
+#: src/partaidetza/partaidetza_templates/searchbox.html:32
+#: src/partaidetza/partaidetza_templates/searchbox.html:42
+#: src/partaidetza/partaidetza_templates/searchbox.html:55
+msgid "All"
+msgstr "Todos"
+
+#: src/partaidetza/partaidetza_templates/base.html:109
+#: src/partaidetza/partaidetza_templates/base.html:117
+msgid "By areas"
+msgstr "Por areas"
+
+#: src/partaidetza/partaidetza_templates/base.html:114
+msgid "Accepted proposals"
+msgstr "Propuestas aceptadas"
+
+#: src/partaidetza/partaidetza_templates/base.html:121
+#: src/partaidetza/partaidetza_templates/home.html:107
+msgid "Accepted projects"
+msgstr "Proyectos aceptados"
+
+#: src/partaidetza/partaidetza_templates/base.html:122
+msgid "Questions"
+msgstr "Preguntas"
+
+#: src/partaidetza/partaidetza_templates/base.html:124
+msgid "Other participation projects"
+msgstr "Otros proyectos de participación"
+
+#: src/partaidetza/partaidetza_templates/base.html:126
+msgid "Past year"
+msgstr "Año pasado"
+
+#: src/partaidetza/partaidetza_templates/base.html:127
+msgid "Other started projects"
+msgstr "Otros proyectos en marcha"
+
+#: src/partaidetza/partaidetza_templates/base.html:136
+msgid "Update profile"
+msgstr "Actualiza tu perfil"
+
+#: src/partaidetza/partaidetza_templates/base.html:137
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: src/partaidetza/partaidetza_templates/base.html:138
+msgid "Follow my proposals"
+msgstr "Ver mis propuestas"
+
+#: src/partaidetza/partaidetza_templates/base.html:141
+msgid "Manage Proposals"
+msgstr "Gestionar propuestas"
+
+#: src/partaidetza/partaidetza_templates/base.html:142
+msgid "Manage proposal criterions"
+msgstr "Gestionar criterios de propuestas"
+
+#: src/partaidetza/partaidetza_templates/base.html:143
+msgid "Submit accepted proposal with file"
+msgstr "Enviar propuesta aceptada mediante fichero"
+
+#: src/partaidetza/partaidetza_templates/base.html:144
+msgid "Submit accepted proposal manually"
+msgstr "Enviar propuesta aceptada manualmente"
+
+#: src/partaidetza/partaidetza_templates/base.html:147
+msgid "Manage accepted proposal"
+msgstr "Gestionar propuestas aceptadas"
+
+#: src/partaidetza/partaidetza_templates/base.html:150
+msgid "Add Event"
+msgstr "Crear evento"
+
+#: src/partaidetza/partaidetza_templates/base.html:153
+msgid "Log out"
+msgstr "Salir"
+
+#: src/partaidetza/partaidetza_templates/calendar.html:14
+msgid "There are no events"
+msgstr "No hay eventos"
+
+#: src/partaidetza/partaidetza_templates/home.html:76
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/partaidetza/partaidetza_templates/home.html:80
+msgid "Next"
+msgstr "Siguinte"
+
+#: src/partaidetza/partaidetza_templates/home.html:95
+#: src/partaidetza/partaidetza_templates/searchbox.html:21
+#: src/partaidetza/partaidetza_templates/searchbox.html:33
+msgid "Proposals"
+msgstr "Propuestas"
+
+#: src/partaidetza/partaidetza_templates/home.html:96
+msgid "See the proposals of your town!"
+msgstr "Mira las propuestas de tu Cuidad"
+
+#: src/partaidetza/partaidetza_templates/home.html:101
+msgid "Votations"
+msgstr "Votaciones"
+
+#: src/partaidetza/partaidetza_templates/home.html:102
+msgid "Vote the best proposals!"
+msgstr "Vota las mejores propuestas"
+
+#: src/partaidetza/partaidetza_templates/home.html:108
+msgid "Follow accepted projects"
+msgstr "Sigue las proyectos aceptados"
+
+#: src/partaidetza/partaidetza_templates/login.html:11
+msgid "NAN number"
+msgstr "Número DNI"
+
+#: src/partaidetza/partaidetza_templates/login.html:22
+msgid "Forget the password ?"
+msgstr "Olvidaste tu contraseña"
+
+#: src/partaidetza/partaidetza_templates/login.html:25
+msgid "Sign in"
+msgstr "Entrar"
+
+#: src/partaidetza/partaidetza_templates/login.html:29
+msgid "keep me logged-in"
+msgstr "Mantenme logeado"
+
+#: src/partaidetza/partaidetza_templates/login.html:35
+msgid "New here ?"
+msgstr "Eres nuevo aquí"
+
+#: src/partaidetza/partaidetza_templates/login.html:35
+msgid "Join Us"
+msgstr "Únete a nostros"
+
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:17
+msgid "Manage projects"
+msgstr "Gestionar proyectos"
+
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:18
+
+#| msgid "Related projects"
+msgid "Delete projects"
+msgstr "Eliminar proyectos"
+
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:17
+#: src/partaidetza/partaidetza_templates/proposal.html:526
+msgid "Manage criterions"
+msgstr "Gestionar criterios"
+
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:53
+#: src/partaidetza/partaidetza_templates/profile.html:106
+#: src/partaidetza/partaidetza_templates/proposal.html:562
+msgid "Save"
+msgstr "Guardar"
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:17
+msgid "Manage my proposals"
+msgstr "Gestionar mis propuestas"
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:27
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:28
+msgid "Criterions"
+msgstr "Criterios"
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:28
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:46
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:29
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:48
+msgid "Accepted"
+msgstr "Aceptado"
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:48
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:50
+msgid "Not accepted"
+msgstr "No aceptado"
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:17
+msgid "Manage proposals"
+msgstr "Gestionar propuestas"
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:18
+msgid "Export XLSX file"
+msgstr "Exportar fichero XLSX"
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:19
+#| msgid "Related proposals"
+msgid "Delete proposals"
+msgstr "Eliminar propuestas"
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:18
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:16
+msgid "New Accepted Proposal"
+msgstr "Nuevo proyecto aceptado"
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:23
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:337
+msgid "Attached files"
+msgstr "Ficheros añadidos"
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:41
+msgid "Upload"
+msgstr "Subir"
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:19 src/partaidetza/partaidetza_templates/new_proposal.html:17
+msgid "New Proposal"
+msgstr "Nueva propuesta"
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:23
+msgid "Proposal id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:691
+#: src/partaidetza/partaidetza_templates/new_proposal.html:500
+#| msgid "Attached documents"
+msgid "Edit attached documents"
+msgstr "Editar documentos añadidos"
+
+#: src/partaidetza/partaidetza_templates/profile.html:16
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/partaidetza/partaidetza_templates/profile.html:29
+#: src/partaidetza/partaidetza_templates/register.html:29
+msgid "Surnames"
+msgstr "Apellidos"
+
+#: src/partaidetza/partaidetza_templates/proposal.html:349
+msgid "Related proposals"
+msgstr "Propuestas relacionadas"
+
+#: src/partaidetza/partaidetza_templates/proposal.html:534
+msgid "Edit criterion"
+msgstr "Editar criterios"
+
+#: src/partaidetza/partaidetza_templates/proposal.html:575
+msgid "Fonds"
+msgstr "Apoyos"
+
+#: src/partaidetza/partaidetza_templates/proposal.html:577
+#: src/partaidetza/partaidetza_templates/proposals.html:31
+msgid "Already fonded"
+msgstr "Apoyado"
+
+#: src/partaidetza/partaidetza_templates/proposal.html:577
+#: src/partaidetza/partaidetza_templates/proposal.html:579
+#: src/partaidetza/partaidetza_templates/proposals.html:31
+msgid "Fond"
+msgstr "Apoya"
+
+#: src/partaidetza/partaidetza_templates/proposals.html:12
+#: src/partaidetza/partaidetza_templates/vote.html:10
+msgid "Proposal list"
+msgstr "Lista de porpuestas"
+
+#: src/partaidetza/partaidetza_templates/proposals.html:29
+msgid "fonds"
+msgstr "apoyos"
+
+#: src/partaidetza/partaidetza_templates/proposals_by_area.html:12
+msgid "Proposal list by area"
+msgstr "Lista de propuestas por area"
+
+#: src/partaidetza/partaidetza_templates/register.html:16
+#: src/partaidetza/partaidetza_templates/register.html:125
+msgid "Register"
+msgstr "Registro"
+
+#: src/partaidetza/partaidetza_templates/search_results.html:28
+msgid "Results found!"
+msgstr "Resultados encontrados"
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:22
+#: src/partaidetza/partaidetza_templates/searchbox.html:34
+msgid "Projects"
+msgstr "Proyectos"
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:30
+msgid "Find in"
+msgstr "Donde"
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:40
+msgid "Find in some part"
+msgstr "Buscar en partes"
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:53
+msgid "Find in some area"
+msgstr "Buscar en areas"
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:56
+msgid "aaaa"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:57
+msgid "bbbb"
+msgstr ""
+
+#: src/partaidetza/settings.py:18
+msgid "Basque"
+msgstr "Euskera"
+
+#: src/partaidetza/settings.py:19
+msgid "Spanish"
+msgstr "Españos"
+
+#: src/partaidetza/settings.py:20
+msgid "English"
+msgstr "Ingles"
+
+#: src/partaidetza/settings.py:21
+msgid "French"
+msgstr "Frances"

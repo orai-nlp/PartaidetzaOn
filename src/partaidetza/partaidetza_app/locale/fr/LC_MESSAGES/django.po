@@ -1,0 +1,2490 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-08 11:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: eggs/Django-1.8.3-py2.7.egg/django/contrib/messages/apps.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/contrib/sitemaps/apps.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/contrib/sitemaps/apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/contrib/staticfiles/apps.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/contrib/staticfiles/apps.py:7
+msgid "Static Files"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/contrib/syndication/apps.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/contrib/webdesign/apps.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/contrib/webdesign/apps.py:7
+msgid "Web Design"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:20
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:20
+msgid "Enter a valid value."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:87
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:712
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:87
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:712
+msgid "Enter a valid URL."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:130
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:130
+msgid "Enter a valid integer."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:141
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:141
+msgid "Enter a valid email address."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:215
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:215
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:220
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:239
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:220
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:239
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:225
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:240
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:225
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:240
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:235
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:238
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:235
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:238
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:263
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1144
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:263
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1144
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:272
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:272
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:298
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:298
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:305
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:305
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:314
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:314
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/core/validators.py:325
+#: eggs/Django-1.8.4-py2.7.egg/django/core/validators.py:325
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/base.py:1106
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:722
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/base.py:1130
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:722
+msgid "and"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/base.py:1108
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/base.py:1132
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:107
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:107
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:108
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:108
+msgid "This field cannot be null."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:109
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:109
+msgid "This field cannot be blank."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:110
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:110
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:114
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:114
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:132
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:132
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:922
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1832
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:922
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1832
+msgid "Integer"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:926
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1830
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:926
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1830
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1001
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1001
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1003
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1003
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1078
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1078
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1139
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1139
+msgid "Comma-separated integers"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1188
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1188
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1190
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1340
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1190
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1340
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1193
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1193
+msgid "Date (without time)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1338
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1338
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1342
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1342
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1346
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1346
+msgid "Date (with time)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1498
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1498
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1500
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1500
+msgid "Decimal number"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1651
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1651
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1654
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1654
+msgid "Duration"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1705
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1705
+msgid "Email address"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1729
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1729
+msgid "File path"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1796
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1796
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1798
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1798
+msgid "Floating point number"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1899
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1899
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1914
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1914
+msgid "IPv4 address"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:1950
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:1950
+msgid "IP address"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2029
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2029
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2031
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2031
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2091
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2091
+msgid "Positive integer"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2103
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2103
+msgid "Positive small integer"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2116
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2116
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2145
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2145
+msgid "Small integer"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2152
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2152
+msgid "Text"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2175
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2175
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2177
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2177
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2180
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2180
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/templates/panels/haystack.html:8
+msgid "Time"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2308
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2308
+msgid "URL"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2331
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2331
+msgid "Raw binary data"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/__init__.py:2375
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/__init__.py:2375
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/files.py:239
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/files.py:239
+#: src/partaidetza/partaidetza_app/forms.py:681
+#: src/partaidetza/partaidetza_app/forms.py:685
+msgid "File"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/files.py:389
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/files.py:389
+msgid "Image"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/related.py:1807
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/related.py:1802
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/related.py:1809
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/related.py:1804
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/related.py:2039
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/related.py:2034
+msgid "One-to-one relationship"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/db/models/fields/related.py:2129
+#: eggs/Django-1.8.4-py2.7.egg/django/db/models/fields/related.py:2124
+msgid "Many-to-many relationship"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:64
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:64
+msgid "This field is required."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:237
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:237
+msgid "Enter a whole number."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:280
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:317
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:280
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:317
+msgid "Enter a number."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:319
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:319
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:323
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:323
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:327
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:327
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:438
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:1193
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:438
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:1193
+msgid "Enter a valid date."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:462
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:1194
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:462
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:1194
+msgid "Enter a valid time."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:484
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:484
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:525
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:525
+msgid "Enter a valid duration."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:591
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:591
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:592
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:592
+msgid "No file was submitted."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:593
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:593
+msgid "The submitted file is empty."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:595
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:595
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:598
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:598
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:660
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:660
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:827
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:921
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:1238
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:827
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:921
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:1238
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:922
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:1037
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:1237
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:922
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:1037
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:1237
+msgid "Enter a list of values."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:1038
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:1038
+msgid "Enter a complete value."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/fields.py:1264
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/fields.py:1264
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/forms.py:129
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/forms.py:129
+msgid ":"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/forms.py:214
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/forms.py:214
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/forms.py:659
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/forms.py:659
+msgid ":?.!"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:96
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:96
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:333
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:333
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:340
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:340
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:368
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:370
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:368
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:370
+msgid "Order"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/formsets.py:372
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/formsets.py:372
+msgid "Delete"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:716
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:716
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:720
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:720
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:726
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:726
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:734
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:734
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:1057
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:1057
+msgid "The inline foreign key did not match the parent instance primary key."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:1123
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:1123
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/models.py:1240
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/models.py:1240
+#, python-format
+msgid "\"%(pk)s\" is not a valid value for a primary key."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/utils.py:165
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/utils.py:165
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:345
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:345
+msgid "Currently"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:346
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:346
+msgid "Change"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:347
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:347
+msgid "Clear"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:555
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:555
+msgid "Unknown"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:556
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:556
+msgid "Yes"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/forms/widgets.py:557
+#: eggs/Django-1.8.4-py2.7.egg/django/forms/widgets.py:557
+msgid "No"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:865
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:865
+msgid "yes,no,maybe"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:894
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:906
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:894
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:906
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:908
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:908
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:910
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:910
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:912
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:912
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:914
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:914
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/template/defaultfilters.py:916
+#: eggs/Django-1.8.4-py2.7.egg/django/template/defaultfilters.py:916
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:61
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:61
+msgid "p.m."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:62
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:62
+msgid "a.m."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:67
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:67
+msgid "PM"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:68
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:68
+msgid "AM"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:151
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:151
+msgid "midnight"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dateformat.py:153
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dateformat.py:153
+msgid "noon"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:6
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:6
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:6
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:6
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:6
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:7
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:11
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:11
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "January"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "February"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "March"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "April"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "May"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:18
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:18
+msgid "June"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:19
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:19
+msgid "July"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:19
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:19
+msgid "August"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:19
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:19
+msgid "September"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:19
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:19
+msgid "October"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:19
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:19
+msgid "November"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:20
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:20
+msgid "December"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "jan"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "feb"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "mar"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "apr"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "may"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:23
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:23
+msgid "jun"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "jul"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "aug"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "sep"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "oct"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "nov"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:24
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:24
+msgid "dec"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:31
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:32
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:33
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:34
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:35
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:36
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:37
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:38
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:39
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:40
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:41
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:42
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:45
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:46
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:47
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:48
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:49
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:50
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:51
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:52
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:53
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:54
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:55
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/dates.py:56
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/ipv6.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/ipv6.py:10
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/text.py:79
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/text.py:79
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/text.py:248
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/text.py:248
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#. Translators: This string is used as a separator between list elements
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/text.py:267
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:58
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/text.py:267
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:58
+msgid ", "
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:10
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:10
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:11
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:11
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:12
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:12
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:13
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:13
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:14
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:14
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:15
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:15
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/utils/timesince.py:47
+#: eggs/Django-1.8.4-py2.7.egg/django/utils/timesince.py:47
+msgid "0 minutes"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:107
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:107
+msgid "Forbidden"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:108
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:108
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:112
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:112
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:117
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:117
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:122
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:122
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:127
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:127
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/csrf.py:132
+#: eggs/Django-1.8.4-py2.7.egg/django/views/csrf.py:132
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/debug.py:583
+#: eggs/Django-1.8.4-py2.7.egg/django/views/debug.py:583
+msgid "Welcome to Django"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/debug.py:584
+#: eggs/Django-1.8.4-py2.7.egg/django/views/debug.py:584
+msgid "It worked!"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/debug.py:585
+#: eggs/Django-1.8.4-py2.7.egg/django/views/debug.py:585
+msgid "Congratulations on your first Django-powered page."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/debug.py:586
+#: eggs/Django-1.8.4-py2.7.egg/django/views/debug.py:586
+msgid ""
+"Of course, you haven't actually done any work yet. Next, start your first "
+"app by running <code>python manage.py startapp [app_label]</code>."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/debug.py:588
+#: eggs/Django-1.8.4-py2.7.egg/django/views/debug.py:588
+msgid ""
+"You're seeing this message because you have <code>DEBUG = True</code> in "
+"your Django settings file and you haven't configured any URLs. Get to work!"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:48
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:48
+msgid "No year specified"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:104
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:104
+msgid "No month specified"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:163
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:163
+msgid "No day specified"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:219
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:219
+msgid "No week specified"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:378
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:406
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:378
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:406
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:660
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:660
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/dates.py:694
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/dates.py:694
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/detail.py:55
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/detail.py:55
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/list.py:76
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/list.py:76
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/list.py:81
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/list.py:81
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/generic/list.py:172
+#: eggs/Django-1.8.4-py2.7.egg/django/views/generic/list.py:172
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/static.py:58
+#: eggs/Django-1.8.4-py2.7.egg/django/views/static.py:58
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/static.py:60
+#: eggs/Django-1.8.4-py2.7.egg/django/views/static.py:60
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: eggs/Django-1.8.3-py2.7.egg/django/views/static.py:100
+#: eggs/Django-1.8.4-py2.7.egg/django/views/static.py:100
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/admin.py:130
+#, python-format
+msgid "0 of %(count)d selected"
+msgid_plural "of %(count)d selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/admin.py:132
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/forms.py:28
+#: src/partaidetza/partaidetza_templates/searchbox.html:8
+msgid "Search"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/forms.py:102
+msgid "Search In"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/panels.py:31
+msgid "Haystack"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/panels.py:55
+msgid "Search Queries"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/templates/panels/haystack.html:5
+#: src/partaidetza/partaidetza_app/forms.py:527
+#: src/partaidetza/partaidetza_app/forms.py:531
+msgid "Query"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/templates/panels/haystack.html:6
+msgid "Backend Alias"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/templates/panels/haystack.html:7
+msgid "Timeline"
+msgstr ""
+
+#: eggs/django_haystack-2.4.0-py2.7.egg/haystack/templates/panels/haystack.html:9
+msgid "Kwargs"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:19
+#: src/partaidetza/partaidetza_app/forms.py:23
+#: src/partaidetza/partaidetza_app/forms.py:118
+#: src/partaidetza/partaidetza_app/forms.py:123
+#: src/partaidetza/partaidetza_app/forms.py:226
+#: src/partaidetza/partaidetza_app/forms.py:231
+#: src/partaidetza/partaidetza_templates/profile.html:54
+#: src/partaidetza/partaidetza_templates/register.html:54
+msgid "NAN"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:28
+msgid "password"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:32
+#: src/partaidetza/partaidetza_templates/login.html:17
+msgid "Password"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:51
+msgid ""
+"Please enter a correct NAN and password. Note that both fields are case-"
+"sensitive."
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:53
+msgid "This account is inactive."
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:71
+#: src/partaidetza/partaidetza_app/forms.py:75
+#: src/partaidetza/partaidetza_app/forms.py:179
+#: src/partaidetza/partaidetza_app/forms.py:183
+#: src/partaidetza/partaidetza_templates/profile.html:20
+#: src/partaidetza/partaidetza_templates/register.html:20
+msgid "Name"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:80
+#: src/partaidetza/partaidetza_app/forms.py:84
+#: src/partaidetza/partaidetza_app/forms.py:89
+#: src/partaidetza/partaidetza_app/forms.py:188
+#: src/partaidetza/partaidetza_app/forms.py:192
+#: src/partaidetza/partaidetza_app/forms.py:197
+msgid "Surname"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:93
+#: src/partaidetza/partaidetza_app/forms.py:201
+#: src/partaidetza/partaidetza_templates/profile.html:63
+#: src/partaidetza/partaidetza_templates/register.html:63
+msgid "Email"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:98
+#: src/partaidetza/partaidetza_app/forms.py:103
+#: src/partaidetza/partaidetza_app/forms.py:108
+#: src/partaidetza/partaidetza_app/forms.py:206
+#: src/partaidetza/partaidetza_app/forms.py:211
+#: src/partaidetza/partaidetza_app/forms.py:216
+#: src/partaidetza/partaidetza_templates/profile.html:38
+#: src/partaidetza/partaidetza_templates/register.html:38
+msgid "Genre"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:110
+#: src/partaidetza/partaidetza_app/forms.py:218
+#: src/partaidetza/partaidetza_app/forms.py:499
+msgid "Example: 1954-03-21"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:113
+#: src/partaidetza/partaidetza_app/forms.py:221
+#: src/partaidetza/partaidetza_templates/profile.html:46
+#: src/partaidetza/partaidetza_templates/register.html:46
+msgid "Birth date"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:120
+#: src/partaidetza/partaidetza_app/forms.py:228
+msgid "Example: 12345678J"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:128
+#: src/partaidetza/partaidetza_app/forms.py:236
+msgid "institution"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:131
+#: src/partaidetza/partaidetza_app/forms.py:239
+#: src/partaidetza/partaidetza_templates/profile.html:71
+#: src/partaidetza/partaidetza_templates/register.html:71
+msgid "Institution"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:137
+#: src/partaidetza/partaidetza_app/forms.py:141
+#: src/partaidetza/partaidetza_app/forms.py:245
+#: src/partaidetza/partaidetza_app/forms.py:249
+#: src/partaidetza/partaidetza_templates/profile.html:79
+#: src/partaidetza/partaidetza_templates/register.html:79
+msgid "Institution name"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:146
+#: src/partaidetza/partaidetza_app/forms.py:150
+#: src/partaidetza/partaidetza_app/forms.py:254
+#: src/partaidetza/partaidetza_app/forms.py:258
+#: src/partaidetza/partaidetza_templates/profile.html:87
+#: src/partaidetza/partaidetza_templates/register.html:87
+msgid "Country"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:155
+#: src/partaidetza/partaidetza_app/forms.py:158
+#: src/partaidetza/partaidetza_app/forms.py:263
+#: src/partaidetza/partaidetza_app/forms.py:266
+#: src/partaidetza/partaidetza_templates/profile.html:95
+#: src/partaidetza/partaidetza_templates/register.html:112
+msgid "Info"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:165
+#: src/partaidetza/partaidetza_app/forms.py:293
+msgid "The NAN you have entered is not correct"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:167
+#: src/partaidetza/partaidetza_app/forms.py:295
+msgid "The NAN you have entered is registered."
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:272
+msgid "password1"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:276
+#: src/partaidetza/partaidetza_templates/register.html:95
+msgid "Password1"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:281
+msgid "password2"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:285
+#: src/partaidetza/partaidetza_templates/register.html:103
+msgid "Password2"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:304
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:314
+#: src/partaidetza/partaidetza_app/forms.py:319
+#: src/partaidetza/partaidetza_app/forms.py:553
+#: src/partaidetza/partaidetza_app/forms.py:558
+#: src/partaidetza/partaidetza_app/forms.py:580
+#: src/partaidetza/partaidetza_app/forms.py:585
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:614
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:37
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:504
+#: src/partaidetza/partaidetza_templates/new_proposal.html:379
+#: src/partaidetza/partaidetza_templates/proposal.html:358
+msgid "Area"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:324
+#: src/partaidetza/partaidetza_app/forms.py:328
+#: src/partaidetza/partaidetza_app/forms.py:623
+#: src/partaidetza/partaidetza_app/forms.py:627
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:687
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:202
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:579
+#: src/partaidetza/partaidetza_templates/new_proposal.html:454
+#: src/partaidetza/partaidetza_templates/proposal.html:431
+msgid "Recipient number"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:333
+#: src/partaidetza/partaidetza_app/forms.py:337
+#: src/partaidetza/partaidetza_app/forms.py:595
+#: src/partaidetza/partaidetza_app/forms.py:599
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:651
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:25
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:25
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:26
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:329
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:543
+#: src/partaidetza/partaidetza_templates/new_proposal.html:418
+#: src/partaidetza/partaidetza_templates/proposal.html:395
+msgid "Cost"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:345
+#: src/partaidetza/partaidetza_app/forms.py:352
+#: src/partaidetza/partaidetza_app/forms.py:608
+#: src/partaidetza/partaidetza_app/forms.py:615
+#: src/partaidetza/partaidetza_app/forms.py:637
+msgid "This value must be a number"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:360
+#: src/partaidetza/partaidetza_app/forms.py:364
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:612
+msgid "Proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:370
+#: src/partaidetza/partaidetza_app/forms.py:375
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:27
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:30
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:645
+msgid "State"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:384
+msgid "There is no proposal with this ID"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:393
+#: src/partaidetza/partaidetza_app/forms.py:397
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:23
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:23
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:23
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:24
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:45 src/partaidetza/partaidetza_templates/searchbox.html:43
+msgid "Title"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:405
+#: src/partaidetza/partaidetza_app/forms.py:409
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:101
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:24
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:24
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:25
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:84
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:106
+#: src/partaidetza/partaidetza_templates/new_proposal.html:107
+#: src/partaidetza/partaidetza_templates/proposal.html:102
+#: src/partaidetza/partaidetza_templates/searchbox.html:44
+msgid "Summary"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:417
+#: src/partaidetza/partaidetza_app/forms.py:421
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:159
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:123
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:169
+#: src/partaidetza/partaidetza_templates/new_proposal.html:170
+#: src/partaidetza/partaidetza_templates/proposal.html:160
+#: src/partaidetza/partaidetza_templates/searchbox.html:46
+msgid "Necessity"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:428
+#: src/partaidetza/partaidetza_app/forms.py:432
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:217
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:162
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:232
+#: src/partaidetza/partaidetza_templates/new_proposal.html:233
+#: src/partaidetza/partaidetza_templates/proposal.html:218
+#: src/partaidetza/partaidetza_templates/searchbox.html:45
+msgid "Recipient"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:439
+#: src/partaidetza/partaidetza_app/forms.py:443
+#: src/partaidetza/partaidetza_app/forms.py:544
+#: src/partaidetza/partaidetza_app/forms.py:549
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:275
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:211
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:296
+#: src/partaidetza/partaidetza_templates/new_proposal.html:297
+#: src/partaidetza/partaidetza_templates/proposal.html:276
+#: src/partaidetza/partaidetza_templates/searchbox.html:47
+msgid "Where"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:450
+#: src/partaidetza/partaidetza_app/forms.py:454
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:366
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:249
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:360
+msgid "Source"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:461
+#: src/partaidetza/partaidetza_app/forms.py:465
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:424
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:287
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:423
+msgid "Explanation"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:473
+msgid "coodinates"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:477
+msgid "Coordinates"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:486
+#: src/partaidetza/partaidetza_app/forms.py:490
+#: src/partaidetza/partaidetza_templates/add_event.html:28
+msgid "Event"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:497
+#: src/partaidetza/partaidetza_app/forms.py:502
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:26
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:26
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:27
+msgid "Date"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:535
+#: src/partaidetza/partaidetza_app/forms.py:540
+msgid "Type"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:537
+msgid "proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:537
+msgid "project"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "title"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "summary"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "necessity"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "recipient"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:546
+msgid "where"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:563
+#: src/partaidetza/partaidetza_app/forms.py:568
+#: src/partaidetza/partaidetza_templates/searchbox.html:18
+msgid "Language"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:645
+#: src/partaidetza/partaidetza_app/forms.py:648
+#: src/partaidetza/partaidetza_app/forms.py:654
+#: src/partaidetza/partaidetza_templates/proposal.html:541
+msgid "Criterion"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:657
+msgid "Changed"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:672
+#: src/partaidetza/partaidetza_app/forms.py:676
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:22
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:22
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:22
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:23
+msgid "id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:696
+#: src/partaidetza/partaidetza_app/forms.py:700
+#: src/partaidetza/partaidetza_app/forms.py:709
+#: src/partaidetza/partaidetza_app/forms.py:713
+msgid "Comment"
+msgstr ""
+
+#: src/partaidetza/partaidetza_app/forms.py:719
+#: src/partaidetza/partaidetza_app/forms.py:723
+msgid "parent_id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:38
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:42
+#: src/partaidetza/partaidetza_templates/new_proposal.html:43
+#: src/partaidetza/partaidetza_templates/proposal.html:38
+msgid "Edit title"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:42
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:115
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:173
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:231
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:289
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:380
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:438
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:20
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:46
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:125
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:188
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:252
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:316
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:380
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:443
+#: src/partaidetza/partaidetza_templates/new_proposal.html:47
+#: src/partaidetza/partaidetza_templates/new_proposal.html:126
+#: src/partaidetza/partaidetza_templates/new_proposal.html:189
+#: src/partaidetza/partaidetza_templates/new_proposal.html:253
+#: src/partaidetza/partaidetza_templates/new_proposal.html:317
+#: src/partaidetza/partaidetza_templates/proposal.html:42
+#: src/partaidetza/partaidetza_templates/proposal.html:116
+#: src/partaidetza/partaidetza_templates/proposal.html:174
+#: src/partaidetza/partaidetza_templates/proposal.html:232
+#: src/partaidetza/partaidetza_templates/proposal.html:290
+msgid "The chosen language by default in the edit fields is "
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:58
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:131
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:189
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:247
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:305
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:396
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:454
+#: src/partaidetza/partaidetza_templates/add_event.html:43
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:60 (kopia).html:99 (kopia).html:138 (kopia).html:177
+#: (kopia).html:226 (kopia).html:264 (kopia).html:302
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:62
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:141
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:204
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:268
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:332
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:396
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:459
+#: src/partaidetza/partaidetza_templates/new_proposal.html:63
+#: src/partaidetza/partaidetza_templates/new_proposal.html:142
+#: src/partaidetza/partaidetza_templates/new_proposal.html:205
+#: src/partaidetza/partaidetza_templates/new_proposal.html:269
+#: src/partaidetza/partaidetza_templates/new_proposal.html:333
+#: src/partaidetza/partaidetza_templates/proposal.html:58
+#: src/partaidetza/partaidetza_templates/proposal.html:132
+#: src/partaidetza/partaidetza_templates/proposal.html:190
+#: src/partaidetza/partaidetza_templates/proposal.html:248
+#: src/partaidetza/partaidetza_templates/proposal.html:306
+msgid "Translate text"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:76
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:149
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:207
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:265
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:323
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:352
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:414
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:472
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:642
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:677
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:712
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:767
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:80
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:159
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:222
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:286
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:350
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:414
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:477
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:534
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:569
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:604
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:637
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:670
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:716
+#: src/partaidetza/partaidetza_templates/new_proposal.html:81
+#: src/partaidetza/partaidetza_templates/new_proposal.html:160
+#: src/partaidetza/partaidetza_templates/new_proposal.html:223
+#: src/partaidetza/partaidetza_templates/new_proposal.html:287
+#: src/partaidetza/partaidetza_templates/new_proposal.html:351
+#: src/partaidetza/partaidetza_templates/new_proposal.html:409
+#: src/partaidetza/partaidetza_templates/new_proposal.html:444
+#: src/partaidetza/partaidetza_templates/new_proposal.html:479
+#: src/partaidetza/partaidetza_templates/new_proposal.html:525
+#: src/partaidetza/partaidetza_templates/proposal.html:76
+#: src/partaidetza/partaidetza_templates/proposal.html:150
+#: src/partaidetza/partaidetza_templates/proposal.html:208
+#: src/partaidetza/partaidetza_templates/proposal.html:266
+#: src/partaidetza/partaidetza_templates/proposal.html:324
+#: src/partaidetza/partaidetza_templates/proposal.html:386
+#: src/partaidetza/partaidetza_templates/proposal.html:421
+#: src/partaidetza/partaidetza_templates/proposal.html:456
+#: src/partaidetza/partaidetza_templates/proposal.html:512
+#: src/partaidetza/partaidetza_templates/proposal.html:561
+msgid "Close"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:77
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:150
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:208
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:266
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:324
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:353
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:415
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:473
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:643
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:678
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:713
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:768
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:81
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:160
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:223
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:287
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:351
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:415
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:478
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:535
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:570
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:605
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:638
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:671
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:717
+#: src/partaidetza/partaidetza_templates/new_proposal.html:82
+#: src/partaidetza/partaidetza_templates/new_proposal.html:161
+#: src/partaidetza/partaidetza_templates/new_proposal.html:224
+#: src/partaidetza/partaidetza_templates/new_proposal.html:288
+#: src/partaidetza/partaidetza_templates/new_proposal.html:352
+#: src/partaidetza/partaidetza_templates/new_proposal.html:410
+#: src/partaidetza/partaidetza_templates/new_proposal.html:445
+#: src/partaidetza/partaidetza_templates/new_proposal.html:480
+#: src/partaidetza/partaidetza_templates/new_proposal.html:526
+#: src/partaidetza/partaidetza_templates/proposal.html:77
+#: src/partaidetza/partaidetza_templates/proposal.html:151
+#: src/partaidetza/partaidetza_templates/proposal.html:209
+#: src/partaidetza/partaidetza_templates/proposal.html:267
+#: src/partaidetza/partaidetza_templates/proposal.html:325
+#: src/partaidetza/partaidetza_templates/proposal.html:387
+#: src/partaidetza/partaidetza_templates/proposal.html:422
+#: src/partaidetza/partaidetza_templates/proposal.html:457
+#: src/partaidetza/partaidetza_templates/proposal.html:513
+msgid "Save changes"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:92
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:96
+#: src/partaidetza/partaidetza_templates/new_proposal.html:97
+#: src/partaidetza/partaidetza_templates/proposal.html:92
+msgid "Creation data"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:111
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:121
+#: src/partaidetza/partaidetza_templates/new_proposal.html:122
+#: src/partaidetza/partaidetza_templates/proposal.html:112
+msgid "Edit summary"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:169
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:184
+#: src/partaidetza/partaidetza_templates/new_proposal.html:185
+#: src/partaidetza/partaidetza_templates/proposal.html:170
+msgid "Edit necessity"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:227
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:248
+#: src/partaidetza/partaidetza_templates/new_proposal.html:249
+#: src/partaidetza/partaidetza_templates/proposal.html:228
+msgid "Edit recipient"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:285
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:312
+#: src/partaidetza/partaidetza_templates/new_proposal.html:313
+#: src/partaidetza/partaidetza_templates/proposal.html:286
+msgid "Edit where"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:341
+msgid "Edit map"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:376
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:376
+msgid "Edit source"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:434
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:439
+msgid "Edit explanation"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:518
+msgid "Respond"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:605
+msgid "Related projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:630
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:522
+#: src/partaidetza/partaidetza_templates/new_proposal.html:397
+#: src/partaidetza/partaidetza_templates/proposal.html:374
+msgid "Edit area"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:665
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:557
+#: src/partaidetza/partaidetza_templates/new_proposal.html:432
+#: src/partaidetza/partaidetza_templates/proposal.html:409
+msgid "Edit cost"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:700
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:743
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:592
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:625
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:658
+#: src/partaidetza/partaidetza_templates/new_proposal.html:467
+#: src/partaidetza/partaidetza_templates/proposal.html:444
+#: src/partaidetza/partaidetza_templates/proposal.html:487
+msgid "Edit recipient number"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:721
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:679
+#: src/partaidetza/partaidetza_templates/new_proposal.html:488
+#: src/partaidetza/partaidetza_templates/proposal.html:465
+msgid "Attached documents"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:777
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:29
+#: src/partaidetza/partaidetza_templates/search_results.html:49
+#: src/partaidetza/partaidetza_templates/vote.html:23
+#: src/partaidetza/partaidetza_templates/vote.html:38
+msgid "votes"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:779
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:31
+#: src/partaidetza/partaidetza_templates/search_results.html:51
+msgid "Already voted"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:779
+#: src/partaidetza/partaidetza_templates/accepted_proposal.html:781
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:31
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:33
+#: src/partaidetza/partaidetza_templates/base.html:120
+#: src/partaidetza/partaidetza_templates/home.html:34
+#: src/partaidetza/partaidetza_templates/proposals.html:33
+#: src/partaidetza/partaidetza_templates/search_results.html:51
+#: src/partaidetza/partaidetza_templates/search_results.html:53
+#: src/partaidetza/partaidetza_templates/vote.html:24
+#: src/partaidetza/partaidetza_templates/vote.html:39
+msgid "Vote"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals.html:12
+msgid "Accepted proposal list"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals_by_area.html:12
+msgid "Accepted proposal list by area"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/accepted_proposals_by_area.html:27
+#: src/partaidetza/partaidetza_templates/proposals_by_area.html:27
+msgid "proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/add_event.html:20
+msgid "New Event"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/add_event.html:22
+msgid "Data"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/add_event.html:62
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:78 (kopia).html:117 (kopia).html:156 (kopia).html:196
+#: (kopia).html:244 (kopia).html:282 (kopia).html:320
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:34
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:114
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:177
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:241
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:304
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:368
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:431
+#: src/partaidetza/partaidetza_templates/new_proposal.html:35
+#: src/partaidetza/partaidetza_templates/new_proposal.html:115
+#: src/partaidetza/partaidetza_templates/new_proposal.html:178
+#: src/partaidetza/partaidetza_templates/new_proposal.html:242
+#: src/partaidetza/partaidetza_templates/new_proposal.html:305
+msgid "It seems that the inserted text is not in the correct language"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/add_event.html:68
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:361
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:730
+#: src/partaidetza/partaidetza_templates/new_proposal.html:539
+msgid ""
+"It seems that the language is not correct in some inputs, do you want to "
+"continue?"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/add_event.html:68
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:361
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:730
+#: src/partaidetza/partaidetza_templates/new_proposal.html:539
+msgid "Create"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/ajax/related_documents.html:5
+msgid "Did you mean?"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:14
+#: src/partaidetza/partaidetza_templates/base.html:90
+msgid "Partaidetza ON"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:95
+msgid "Presentation"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:97
+msgid "Methodology"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:98
+msgid "Steps"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:99
+msgid "How to participate"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:100
+msgid "Proposal acceptation criterion"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:101
+msgid "Participation agenda"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:104
+msgid "Submit proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:106
+msgid "View proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:108
+#: src/partaidetza/partaidetza_templates/base.html:116
+#: src/partaidetza/partaidetza_templates/searchbox.html:20
+#: src/partaidetza/partaidetza_templates/searchbox.html:32
+#: src/partaidetza/partaidetza_templates/searchbox.html:42
+#: src/partaidetza/partaidetza_templates/searchbox.html:55
+msgid "All"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:109
+#: src/partaidetza/partaidetza_templates/base.html:117
+msgid "By areas"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:114
+msgid "Accepted proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:121
+#: src/partaidetza/partaidetza_templates/home.html:107
+msgid "Accepted projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:122
+msgid "Questions"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:124
+msgid "Other participation projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:126
+msgid "Past year"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:127
+msgid "Other started projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:136
+msgid "Update profile"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:137
+msgid "Change password"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:138
+msgid "Follow my proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:141
+msgid "Manage Proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:142
+msgid "Manage proposal criterions"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:143
+msgid "Submit accepted proposal with file"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:144
+msgid "Submit accepted proposal manually"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:147
+msgid "Manage accepted proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:150
+msgid "Add Event"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/base.html:153
+msgid "Log out"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/calendar.html:14
+msgid "There are no events"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:76
+msgid "Previous"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:80
+msgid "Next"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:95
+#: src/partaidetza/partaidetza_templates/searchbox.html:21
+#: src/partaidetza/partaidetza_templates/searchbox.html:33
+msgid "Proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:96
+msgid "See the proposals of your town!"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:101
+msgid "Votations"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:102
+msgid "Vote the best proposals!"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/home.html:108
+msgid "Follow accepted projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:11
+msgid "NAN number"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:22
+msgid "Forget the password ?"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:25
+msgid "Sign in"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:29
+msgid "keep me logged-in"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:35
+msgid "New here ?"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/login.html:35
+msgid "Join Us"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:17
+msgid "Manage projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_accepted_proposals.html:18
+msgid "Delete projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:17
+#: src/partaidetza/partaidetza_templates/proposal.html:526
+msgid "Manage criterions"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_criterions.html:53
+#: src/partaidetza/partaidetza_templates/profile.html:106
+#: src/partaidetza/partaidetza_templates/proposal.html:562
+msgid "Save"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:17
+msgid "Manage my proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:27
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:28
+msgid "Criterions"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:28
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:46
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:29
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:48
+msgid "Accepted"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_my_proposals.html:48
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:50
+msgid "Not accepted"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:17
+msgid "Manage proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:18
+msgid "Export XLSX file"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/manage_proposals.html:19
+msgid "Delete proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:18
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:16
+msgid "New Accepted Proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:23
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:337
+msgid "Attached files"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal.html:41
+msgid "Upload"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:19 src/partaidetza/partaidetza_templates/new_proposal.html:17
+msgid "New Proposal"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually
+#: (kopia).html:23
+msgid "Proposal id"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/new_accepted_proposal_manually.html:691
+#: src/partaidetza/partaidetza_templates/new_proposal.html:500
+msgid "Edit attached documents"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/profile.html:16
+msgid "Profile"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/profile.html:29
+#: src/partaidetza/partaidetza_templates/register.html:29
+msgid "Surnames"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposal.html:349
+msgid "Related proposals"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposal.html:534
+msgid "Edit criterion"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposal.html:575
+msgid "Fonds"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposal.html:577
+#: src/partaidetza/partaidetza_templates/proposals.html:31
+msgid "Already fonded"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposal.html:577
+#: src/partaidetza/partaidetza_templates/proposal.html:579
+#: src/partaidetza/partaidetza_templates/proposals.html:31
+msgid "Fond"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposals.html:12
+#: src/partaidetza/partaidetza_templates/vote.html:10
+msgid "Proposal list"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposals.html:29
+msgid "fonds"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/proposals_by_area.html:12
+msgid "Proposal list by area"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/register.html:16
+#: src/partaidetza/partaidetza_templates/register.html:125
+msgid "Register"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/search_results.html:28
+msgid "Results found!"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:22
+#: src/partaidetza/partaidetza_templates/searchbox.html:34
+msgid "Projects"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:30
+msgid "Find in"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:40
+msgid "Find in some part"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:53
+msgid "Find in some area"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:56
+msgid "aaaa"
+msgstr ""
+
+#: src/partaidetza/partaidetza_templates/searchbox.html:57
+msgid "bbbb"
+msgstr ""
+
+#: src/partaidetza/settings.py:18
+msgid "Basque"
+msgstr ""
+
+#: src/partaidetza/settings.py:19
+msgid "Spanish"
+msgstr ""
+
+#: src/partaidetza/settings.py:20
+msgid "English"
+msgstr ""
+
+#: src/partaidetza/settings.py:21
+msgid "French"
+msgstr ""

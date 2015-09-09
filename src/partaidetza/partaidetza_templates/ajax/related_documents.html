@@ -1,0 +1,11 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% load tags %}
+{% if objects|length > 0 %}
+    {% trans "Did you mean?" %}
+        <ul>
+        {% for object in objects %}
+            <li><a target="_blank" href="/proposal/{{ object.object.id }}">{{ object.object|get_title:LANGUAGE_CODE|safe }}</a></li>
+        {% endfor %}
+        </ul>
+{% else %}{% endif %}

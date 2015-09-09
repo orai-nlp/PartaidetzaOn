@@ -1,0 +1,87 @@
+Arabic (ISO-8859-6)	arabic-windows1256 or arabic-iso8859_6 or ukrainian-koi8_r or chinese-gb2312
+Catalan (ISO-8859-1)	catalan or spanish
+Chinese (Simplified)	chinese-gb2312
+Chinese (Traditional)	chinese-big5
+Danish (ISO-8859-1)	danish
+Dutch (ISO-8859-1)	dutch
+English (ISO-8859-1)	english
+Esperanto (ISO-8859-3)	esperanto
+Finnish (ISO-8859-1)	finnish
+French (ISO-8859-1)	french
+Georgian (UTF-8)	I don't know; Perhaps this is a language I haven't seen before?
+German (ISO-8859-1)	german
+Hebrew (ISO-8859-8-I)	hebrew-iso8859_8
+Hungarian (ISO-8859-2)	hungarian
+Irish Gaelic	irish
+Italian (ISO-8859-1)	italian or romanian or spanish or catalan or rumantsch
+Japanese (SHIFT_JIS)	japanese-shift_jis
+Korean (EUC-KR)	korean
+Norwegian (Bokmål)	danish or norwegian or swedish
+Norwegian (Nynorsk)	danish or frisian or swedish
+Occitan (ISO-8859-1)	catalan or french or spanish
+Portuguese (Brazil)	portuguese
+Portuguese (Portugal)	portuguese or spanish
+Romanian (ISO-8859-2)	romanian or catalan or latin
+Russian (ISO-8859-5)	russian-iso8859_5
+Slovenian (ISO-8859-2)	slovenian-iso8859_2 or slovenian-ascii or serbian-ascii
+Spanish (ISO-8859-1)	spanish
+Swedish (ISO-8859-1)	swedish or danish
+Yiddish (UTF-8)	yiddish-utf
+Arabic (ISO-8859-6)	arabic-windows1256 or arabic-iso8859_6 or ukrainian-koi8_r
+Catalan (ISO-8859-1)	catalan
+Chinese (Simplified)	chinese-gb2312
+Chinese (Traditional)	chinese-big5
+Danish (ISO-8859-1)	danish or swedish
+Dutch (ISO-8859-1)	dutch
+English (ISO-8859-1)	english
+Esperanto (ISO-8859-3)	esperanto
+Finnish (ISO-8859-1)	finnish
+French (ISO-8859-1)	french
+Georgian (UTF-8)	I don't know; Perhaps this is a language I haven't seen before?
+German (ISO-8859-1)	german
+Hebrew (ISO-8859-8-I)	hebrew-iso8859_8
+Hungarian (ISO-8859-2)	hungarian
+Irish Gaelic	irish
+Italian (ISO-8859-1)	italian or romanian or spanish or catalan or rumantsch
+Japanese (SHIFT_JIS)	japanese-shift_jis
+Korean (EUC-KR)	korean
+Norwegian (Bokmål)	danish or norwegian or swedish
+Norwegian (Nynorsk)	danish or swedish or middle_frisian or frisian
+Occitan (ISO-8859-1)	catalan or spanish or french
+Portuguese (Brazil)	portuguese or spanish
+Portuguese (Portugal)	portuguese or spanish
+Romanian (ISO-8859-2)	romanian or catalan or latin or spanish or portuguese
+Russian (ISO-8859-5)	russian-iso8859_5
+Slovenian (ISO-8859-2)	slovenian-iso8859_2 or bosnian or slovenian-ascii or serbian-ascii
+Spanish (ISO-8859-1)	spanish
+Swedish (ISO-8859-1)	swedish
+Yiddish (UTF-8)	yiddish-utf
+Arabic (ISO-8859-6)	arabic-windows1256 or arabic-iso8859_6
+Catalan (ISO-8859-1)	catalan
+Chinese (Simplified)	chinese-gb2312
+Chinese (Traditional)	chinese-big5
+Danish (ISO-8859-1)	danish or swedish
+Dutch (ISO-8859-1)	dutch
+English (ISO-8859-1)	english
+Esperanto (ISO-8859-3)	esperanto
+Finnish (ISO-8859-1)	finnish
+French (ISO-8859-1)	french
+Georgian (UTF-8)	I don't know; Perhaps this is a language I haven't seen before?
+German (ISO-8859-1)	german
+Hebrew (ISO-8859-8-I)	hebrew-iso8859_8
+Hungarian (ISO-8859-2)	hungarian
+Irish Gaelic	irish
+Italian (ISO-8859-1)	italian or romanian
+Japanese (SHIFT_JIS)	japanese-shift_jis
+Korean (EUC-KR)	korean
+Norwegian (Bokmål)	danish or norwegian or swedish
+Norwegian (Nynorsk)	danish or swedish or middle_frisian
+Occitan (ISO-8859-1)	catalan or spanish or french
+Portuguese (Brazil)	portuguese
+Portuguese (Portugal)	portuguese or spanish
+Romanian (ISO-8859-2)	romanian or spanish or latin or catalan or italian or portuguese or french or english
+Russian (ISO-8859-5)	russian-iso8859_5
+Slovenian (ISO-8859-2)	slovenian-iso8859_2 or slovenian-ascii or serbian-ascii or bosnian
+Spanish (ISO-8859-1)	spanish
+Swedish (ISO-8859-1)	swedish
+Yiddish (UTF-8)	yiddish-utf

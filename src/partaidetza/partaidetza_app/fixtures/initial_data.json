@@ -1,0 +1,207 @@
+[{"model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "admin"
+    }
+},
+{"model": "auth.group",
+    "pk": 2,
+    "fields": {
+        "name": "citizen"
+    }
+},
+{"model": "auth.group",
+    "pk": 3,
+    "fields": {
+        "name": "manager"
+    }
+},
+{"model": "auth.group",
+    "pk": 4,
+    "fields": {
+        "name": "technician"
+    }
+},
+
+{"model": "partaidetza_app.Area",
+    "pk": 1,
+    "fields": {
+        "area": "kultura"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 2,
+    "fields": {
+        "area": "euskara"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 3,
+    "fields": {
+        "area": "herri-lanak"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 4,
+    "fields": {
+        "area": "gizarte zerbitzuak"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 5,
+    "fields": {
+        "area": "kirola"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 6,
+    "fields": {
+        "area": "ingurumena"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 7,
+    "fields": {
+        "area": "hezkuntza"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 8,
+    "fields": {
+        "area": "ekonomia (enplegua, ekintzailea, merkataritza, turismoa)"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 9,
+    "fields": {
+        "area": "berdintasuna"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 10,
+    "fields": {
+        "area": "partaidetza"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 11,
+    "fields": {
+        "area": "oroimen historikoa"
+    }
+},
+{"model": "partaidetza_app.Area",
+    "pk": 12,
+    "fields": {
+        "area": "gazteria"
+    }
+},
+
+{"model": "partaidetza_app.Criterion",
+    "pk": 1,
+    "fields": {
+        "criterion": "Genero berdintasuna"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 2,
+    "fields": {
+        "criterion": "Bazterketa sozialeko arriskuan dauden herritarrak babestea (langabeak, etorri-berriak, gutxiengo etnikoak, adinekoak... "
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 3,
+    "fields": {
+        "criterion": "Minusbaliotasunak dituzten herritarren aldeko proposamenak"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 4,
+    "fields": {
+        "criterion": "Eskualdea osotasunean aintzat hartzen duten proposamenak izatea. Eragina denongana iristea. Denon artean zerbait egiteko aukera baliatzea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 5,
+    "fields": {
+        "criterion": "Aukeratutako proposamenek herri eta auzo guztietan eragina izatea. Herri/auzoen arteko banaketa eta oreka bermatzea. Auzoetan dauden beharrak aintzat hartzea, bereziki herri txikienetakoak"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 6,
+    "fields": {
+        "criterion": "Inklusioa, aniztasuna, tolerantzia, kulturartekotasuna... bultzatzea. Justizia soziala bultzatzea. Enplegua (epe luzekoa eta kalitatezkoa) bultzatzea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 7,
+    "fields": {
+        "criterion": "Herritar sare autonomoa eta parte hartzailea bideratzea, edota herritarren arteko sinergiak sortzea. Auzolana, batzarra eta herri-ondasunak sustatzea. Herritarrak ahalmentzea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 8,
+    "fields": {
+        "criterion": "Ingurumena, garapen iraunkorra eta jasangarritasuna sustatzea. Burujabetza (elikagaiena, energetikoa...) bultzatzea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 9,
+    "fields": {
+        "criterion": "Tokiko kontsumoa eta ekonomia sustatzen duten proposamenak, elkartasunean oinarrituak eta jasangarriak"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 10,
+    "fields": {
+        "criterion": "Euskararen normalizaziorako eta erabilera sustatzeko lagungarri izatea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 11,
+    "fields": {
+        "criterion": "Herrietan dauden ase gabeko azpiegitura eta ekipamendu beharrei erantzutea, lurraldearen orekaren barruan. Herrietako oinarrizko beharrei erantzutea. Dauden azpiegiturak aprobetxatzea eta berriz pentsatzea, herritarren beharrei erantzuna ematea, eta balio anitzetarako izatea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 12,
+    "fields": {
+        "criterion": "Denboran iraunkorrak izatea. Egitasmo txikiak lehenestea, azpiegitura handien aldean. Etorkizunean bertako baliabideak ustiatzeko pizgarria izatea"
+    }
+},
+{"model": "partaidetza_app.Criterion",
+    "pk": 13,
+    "fields": {
+        "criterion": "Egingo diren ekimenak herritarrek epe motzean antzematea, ikusi/ukitu daitezkeen kontuak izatea"
+    }
+},
+{"model": "partaidetza_app.Genre",
+    "pk": 1,
+    "fields": {
+        "genre": "Male"
+    }
+},
+{"model": "partaidetza_app.Genre",
+    "pk": 2,
+    "fields": {
+        "genre": "Female"
+    }
+},
+{"model": "partaidetza_app.Status",
+    "pk": 1,
+    "fields": {
+        "status": "started"
+    }
+},
+{"model": "partaidetza_app.Status",
+    "pk": 2,
+    "fields": {
+        "status": "in progress"
+    }
+},  
+{"model": "partaidetza_app.Status",
+    "pk": 3,
+    "fields": {
+        "status": "finished"
+    }
+}            
+]

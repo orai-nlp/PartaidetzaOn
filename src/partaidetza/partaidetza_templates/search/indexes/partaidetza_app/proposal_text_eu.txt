@@ -1,0 +1,8 @@
+
+{% load tags %}
+
+{{ object|get_title:'eu' }}
+{{ object|get_summary:'eu' }}
+{{ object|get_necessity:'eu' }}
+{{ object|get_recipient:'eu' }}
+{{ object|get_where:'eu' }}    

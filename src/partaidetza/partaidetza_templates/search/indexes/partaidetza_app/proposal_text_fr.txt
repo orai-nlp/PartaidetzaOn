@@ -1,0 +1,8 @@
+
+{% load tags %}
+
+{{ object|get_title:'fr' }}
+{{ object|get_summary:'fr' }}
+{{ object|get_necessity:'fr' }}
+{{ object|get_recipient:'fr' }}
+{{ object|get_where:'fr' }}    

@@ -1,0 +1,16 @@
+
+                  An Eoraip, Earra Bog + an tIdirghréasán:
+                        Gréasánú Domhanda le hUnicode
+
+
+ Cláraigh anois don Deichiú Comhdháil Idirnáisiúnta de chuid Unicode, a
+ bheidh ar siúl 10-12 Márta 1997, i Mainz na Gearmáine. Tabharfaidh an
+ Chomhdháil seo daoine le chéile atá eolach ar gach gné den tionscal -- ar
+ an Idirghréasán domhanda, ar Unicode, ar aistriú agus ar chóiriú áitiúil
+ earra bhoig, ar fheidhmiú Unicode i gcórais oibre agus i bhfeidhmchláir,
+ ar chlófhoirne, ar leagan amach téacs, agus ar ríomhaireacht ilteangach i
+ gcoitinne.
+
+
+    Nuair a bhualann fonn cainte an domhan, is as Unicode a labhrann sé
+

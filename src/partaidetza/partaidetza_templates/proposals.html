@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/proposals.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<div class="container body">
+    <div class="row">
+		<div class="well">
+        <h1 class="text-center">{% trans "Proposal list" %} {% if by_area %}(<em>{{ by_area.area }}</em>){% endif %}</h1>
+        <div class="list-group">
+        {% for proposal in proposal_list %}
+          <a href="/proposal/{{ proposal.id }}" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive"  src="{{ STATIC_URL }}{{ proposal.get_images.0 }}" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">{{ proposal|get_title:LANGUAGE_CODE|safe }}</h4>
+                    <p class="list-group-item-text">{{ proposal|get_summary:LANGUAGE_CODE|cut_text|safe }} {% for area in proposal.get_area_names %}
+                     <span class="label label-info">{{ area }}</span>
+                    {% endfor %}</p>
+                </div>
+                
+                <div class="col-md-3 text-center">
+                            <h2> <span>{{ proposal.get_fonds }}</span> <small> {% trans "fonds" %} </small></h2>
+                                {% if user.is_authenticated %}
+                                    <button id="id_fond_show_{{ proposal.id }}" onclick="fond_via_ajax('{{ proposal.id }}'); return false" id="id_fond_button_{{ proposal.id }}" class="btn btn-primary btn-lg btn-block {% if proposal|already_fonded:user %}voted{% endif %}" {% if proposal|already_fonded:user %}disabled {% endif %}>{% if proposal|already_fonded:user %}{% trans "Already fonded" %}{% else %}{% trans "Fond" %}{% endif %}</button>
+                                {% else %}
+                                    <!--<button class="btn btn-primary btn-lg btn-block" id="id_vote_show_{{ project.id }}" onclick="window.locatiojn='/?next=/'">{% trans "Vote" %}</button>-->
+                                {% endif %}
+
+                            
+                       </div>
+                
+            </a>
+            
+          {% endfor %}
+
+                
+          
+        </div>
+        </div>
+	</div>
+	
+	<nav class="pagination col-md-12 text-center">
+        <ul class="pagination">
+            {% if proposal_list.has_previous %}
+                <li><a href="?page=1"><<</a></li>
+            {% endif %}
+            
+            {% if proposal_list.has_previous %}
+                <li><a href="?page={{ proposal_list.previous_page_number }}{% if by_area %}&area={{ by_area.id }}{% endif %}"><</a></li>
+            {% endif %}
+
+            {% for num in proposal_list.paginator.page_range %}
+              {% ifequal num proposal_list.number %}
+                <li><span class="current"><b>{{ num }}</b></span></li>
+              {% else %}
+                <li><a href="?page={{ num }}{% if by_area %}&area={{ by_area.id }}{% endif %}"> {{ num }}</a></li>
+              {% endifequal %} 
+            {% endfor %}
+
+            {% if proposal_list.has_next %}
+                <li><a href="?page={{ proposal_list.next_page_number }}{% if by_area %}&area={{ by_area.id }}{% endif %}">></a></li>
+            {% endif %}
+            
+            {% if proposal_list.has_next %}
+                <li><a href="?page={{ proposal_list.paginator.num_pages }}{% if by_area %}&area={{ by_area.id }}{% endif %}">>></a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+{% endblock %}

@@ -1,0 +1,631 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load tags %}
+{% load leaflet_tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block additional_scripts %}
+<link href="{{ STATIC_URL }}css/blog-post.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/proposal.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/social-share-kit.css" rel="stylesheet">
+{% endblock %}
+{% block onload_scripts %}
+load_proposal_scripts();
+{% endblock %}
+{% block body %}
+<div class="container body">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <!--<div class="col-lg-8">-->
+            <div class="col-lg-7">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1><span id="id_title">{{ proposal|get_title:LANGUAGE_CODE|safe }} </span>
+                    {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                        <a href="#" data-toggle="modal" data-target="#title_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                    {% endif %}
+                </h1>
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="title_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{% trans "Edit title" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <div class="alert alert-warning text-center" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span>{% trans "The chosen language by default in the edit fields is " %}<strong><em>{{ LANGUAGE_CODE |upper }}</em></strong></span></div>  
+                              
+                              <div class="col-md-9">                
+                                <div>
+                                    <div class="panel with-nav-tabs panel-primary">
+                                        <div class="panel-heading">
+                                                <ul class="nav nav-tabs">
+                                                    {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                        {% if forloop.counter == 1 %}
+                                                            <li class="active">
+                                                        {% else %}
+                                                            <li>
+                                                        {% endif %}
+                                                        <a href="#tab{{ forloop.counter }}title" data-toggle="tab">{{ lang.0|upper }}</a></li>
+                                                        
+                                                    {% endfor %}
+                                                    <button onclick="automatic_translation('#title_div');return false;" type="submit" name ="translation_button" class="btn btn-primary btn-lg right-floated">{% trans "Translate text" %}</button>
+                                                </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="tab-content" id="title_div">
+                                                {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                    {% with title_dict|get_lang_form:lang.0 as title_form %}
+                                                        <div class="tab-pane fade in {% if forloop.counter == 1 %}active{% endif %}" id="tab{{ forloop.counter }}title">{{ title_form.title }}{{ title_form.title.errors }}</div>
+                                                    {% endwith %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_title({{ proposal.id }},'{{ LANGUAGE_CODE }}');" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+
+                <!-- Author 
+                <p class="lead">
+                    by <a href="#">Start Bootstrap</a>
+                </p>-->
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> {% trans "Creation data" %}: {{ proposal.date|date:"SHORT_DATE_FORMAT" }}</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img id="id_image" class="img-responsive" src="{{ STATIC_URL }}{{ proposal.get_images.0 }}" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead">{% trans "Summary" %}</p>
+                <p><span id="id_summary">{{ proposal|get_summary:LANGUAGE_CODE|safe }}</span>{% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                        <a href="#" data-toggle="modal" data-target="#summary_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                    {% endif %}</p>
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="summary_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-summary" id="myModalLabel">{% trans "Edit summary" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <div class="alert alert-warning text-center" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span>{% trans "The chosen language by default in the edit fields is " %}<strong><em>{{ LANGUAGE_CODE |upper }}</em></strong></span></div> 
+                              
+                              <div class="col-md-9">                
+                                <div>
+                                    <div class="panel with-nav-tabs panel-primary">
+                                        <div class="panel-heading">
+                                                <ul class="nav nav-tabs">
+                                                    {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                        {% if forloop.counter == 1 %}
+                                                            <li class="active">
+                                                        {% else %}
+                                                            <li>
+                                                        {% endif %}
+                                                        <a href="#tab{{ forloop.counter }}summary" data-toggle="tab">{{ lang.0|upper }}</a></li>
+                                                        
+                                                    {% endfor %}
+                                                    <button onclick="automatic_translation('#summary_div');return false;" type="submit" name ="translation_button" class="btn btn-primary btn-lg right-floated">{% trans "Translate text" %}</button>
+                                                </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="tab-content" id="summary_div">
+                                                {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                    {% with summary_dict|get_lang_form:lang.0 as summary_form %}
+                                                        <div class="tab-pane fade in {% if forloop.counter == 1 %}active{% endif %}" id="tab{{ forloop.counter }}summary">{{ summary_form.summary }}{{ summary_form.summary.errors }}</div>
+                                                    {% endwith %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_summary({{ proposal.id }},'{{ LANGUAGE_CODE }}');" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+
+                <hr>
+                
+                <p class="lead">{% trans "Necessity" %}</p>
+                <p><span id="id_necessity">{{ proposal|get_necessity:LANGUAGE_CODE|safe }}</span>{% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                        <a href="#" data-toggle="modal" data-target="#necessity_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                    {% endif %}</p>
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="necessity_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-necessity" id="myModalLabel">{% trans "Edit necessity" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <div class="alert alert-warning text-center" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span>{% trans "The chosen language by default in the edit fields is " %}<strong><em>{{ LANGUAGE_CODE |upper }}</em></strong></span></div> 
+                              
+                              <div class="col-md-9">                
+                                <div>
+                                    <div class="panel with-nav-tabs panel-primary">
+                                        <div class="panel-heading">
+                                                <ul class="nav nav-tabs">
+                                                    {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                        {% if forloop.counter == 1 %}
+                                                            <li class="active">
+                                                        {% else %}
+                                                            <li>
+                                                        {% endif %}
+                                                        <a href="#tab{{ forloop.counter }}necessity" data-toggle="tab">{{ lang.0|upper }}</a></li>
+                                                        
+                                                    {% endfor %}
+                                                    <button onclick="automatic_translation('#necessity_div');return false;" type="submit" name ="translation_button" class="btn btn-primary btn-lg right-floated">{% trans "Translate text" %}</button>
+                                                </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="tab-content" id="necessity_div">
+                                                {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                    {% with necessity_dict|get_lang_form:lang.0 as necessity_form %}
+                                                        <div class="tab-pane fade in {% if forloop.counter == 1 %}active{% endif %}" id="tab{{ forloop.counter }}necessity">{{ necessity_form.necessity }}{{ necessity_form.necessity.errors }}</div>
+                                                    {% endwith %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_necessity({{ proposal.id }},'{{ LANGUAGE_CODE }}');" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+                
+                <hr>
+                
+                <p class="lead">{% trans "Recipient" %}</p>
+                <p><span id="id_recipient">{{ proposal|get_recipient:LANGUAGE_CODE|safe }}</span>{% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                        <a href="#" data-toggle="modal" data-target="#recipient_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                {% endif %}</p>              
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="recipient_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-recipient" id="myModalLabel">{% trans "Edit recipient" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <div class="alert alert-warning text-center" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span>{% trans "The chosen language by default in the edit fields is " %}<strong><em>{{ LANGUAGE_CODE |upper }}</em></strong></span></div> 
+                              
+                              <div class="col-md-9">                
+                                <div>
+                                    <div class="panel with-nav-tabs panel-primary">
+                                        <div class="panel-heading">
+                                                <ul class="nav nav-tabs">
+                                                    {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                        {% if forloop.counter == 1 %}
+                                                            <li class="active">
+                                                        {% else %}
+                                                            <li>
+                                                        {% endif %}
+                                                        <a href="#tab{{ forloop.counter }}recipient" data-toggle="tab">{{ lang.0|upper }}</a></li>
+                                                        
+                                                    {% endfor %}
+                                                    <button onclick="automatic_translation('#recipient_div');return false;" type="submit" name ="translation_button" class="btn btn-primary btn-lg right-floated">{% trans "Translate text" %}</button>
+                                                </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="tab-content" id="recipient_div">
+                                                {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                    {% with recipient_dict|get_lang_form:lang.0 as recipient_form %}
+                                                        <div class="tab-pane fade in {% if forloop.counter == 1 %}active{% endif %}" id="tab{{ forloop.counter }}recipient">{{ recipient_form.recipient }}{{ recipient_form.recipient.errors }}</div>
+                                                    {% endwith %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_recipient({{ proposal.id }},'{{ LANGUAGE_CODE }}');" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+
+                <hr>
+
+                <p class="lead">{% trans "Where" %}</p>
+                <p><span id="id_where">{{ proposal|get_where:LANGUAGE_CODE|safe }}</span>{% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                        <a href="#" data-toggle="modal" data-target="#where_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                {% endif %}</p>              
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="where_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-where" id="myModalLabel">{% trans "Edit where" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <div class="alert alert-warning text-center" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span>{% trans "The chosen language by default in the edit fields is " %}<strong><em>{{ LANGUAGE_CODE |upper }}</em></strong></span></div> 
+                              
+                              <div class="col-md-9">                
+                                <div>
+                                    <div class="panel with-nav-tabs panel-primary">
+                                        <div class="panel-heading">
+                                                <ul class="nav nav-tabs">
+                                                    {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                        {% if forloop.counter == 1 %}
+                                                            <li class="active">
+                                                        {% else %}
+                                                            <li>
+                                                        {% endif %}
+                                                        <a href="#tab{{ forloop.counter }}where" data-toggle="tab">{{ lang.0|upper }}</a></li>
+                                                        
+                                                    {% endfor %}
+                                                    <button onclick="automatic_translation('#where_div');return false;" type="submit" name ="translation_button" class="btn btn-primary btn-lg right-floated">{% trans "Translate text" %}</button>
+                                                </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="tab-content" id="where_div">
+                                                {% for lang in LANGUAGES|sort_by_default_language:LANGUAGE_CODE %}
+                                                    {% with where_dict|get_lang_form:lang.0 as where_form %}
+                                                        <div class="tab-pane fade in {% if forloop.counter == 1 %}active{% endif %}" id="tab{{ forloop.counter }}where">{{ where_form.where }}{{ where_form.where.errors }}</div>
+                                                    {% endwith %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_where({{ proposal.id }},'{{ LANGUAGE_CODE }}');" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+
+                <hr>
+
+
+            {% leaflet_map "map" callback="load_map" %}
+
+            
+            
+            
+            
+            </div>
+            
+            
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>{% trans "Related proposals" %}</h4>
+                    {% for related_object in related %}
+                        <p><a href="/proposal/{{ related_object.object.id }}" >{{ related_object.object|get_title:LANGUAGE_CODE|safe }}</a> ({{ related_object.score }})</p>
+                    {% endfor %}
+                </div>
+                
+                {% include "social.html" %}
+                
+                <div class="well">
+                    <h4>{% trans "Area" %} 
+                        {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                            <a href="#" data-toggle="modal" data-target="#area_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                        {% endif %}
+                    </h4>
+                    <p id="id_area" class="list-group-item-text">{% for area in proposal.get_area_names %}
+                     <span class="label label-info">{{ area }}</span>
+                    {% endfor %}</p>
+                </div>
+                
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="area_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{% trans "Edit area" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              
+                              <div class="col-md-9">              
+                                {{ area_form.area }}
+                                {{ area_form.area.errors }}
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_area({{ proposal.id }});" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               {% endif %}
+                
+                <div class="well">
+                    <h4>{% trans "Cost" %} 
+                        {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                            <a href="#" data-toggle="modal" data-target="#cost_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                        {% endif %}
+                    </h4>
+                    <p id="id_cost">{{ proposal.cost }}</p>
+                </div>
+                
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="cost_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{% trans "Edit cost" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              
+                              <div class="col-md-9">              
+                                {{ cost_form.cost }}
+                                {{ cost_form.cost.errors }}
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_cost({{ proposal.id }});" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               {% endif %}
+                
+                
+                <div class="well">
+                    <h4>{% trans "Recipient number" %} 
+                        {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                            <a href="#" data-toggle="modal" data-target="#recipient_number_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                        {% endif %}
+                    </h4>
+                    <p id="id_recipient_number">{{ proposal.recipient_number }}</p>
+                </div>
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="recipient_number_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{% trans "Edit recipient number" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              
+                              <div class="col-md-9">              
+                                {{ recipient_number_form.recipient_number }}
+                                {{ recipient_number_form.recipient_number.errors }}
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="button" onclick="save_proposal_recipient_number({{ proposal.id }});" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endif %}
+        
+                <div class="well">
+                    <h4>{% trans "Attached documents" %}{% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                            <a href="#" data-toggle="modal" data-target="#attached_documents_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a>
+                        {% endif %}</h4>
+                    <div class="input-group">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                {% with proposal.get_documents as documents %}
+                                    {% for doc in documents %}
+                                        <li><a href="{{ STATIC_URL }}{{ MEDIA_URL }}{{ doc }}">{{ doc|clean_doc_name|safe }}</a></li>
+                                    {% endfor %}
+                                {% endwith %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+                    <div class="modal fade" id="attached_documents_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                        <form action="#" method="POST" enctype="multipart/form-data" id="attached_documents_form" >{% csrf_token %}
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{% trans "Edit recipient number" %}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              
+                              <div class="col-md-9">
+                                <div class='table'>
+                                    <div class='no_error'>  
+                                            {{ upload_forms.management_form }}
+                                            {% for upload_form in upload_forms.forms %}
+                                                        <p class="upload_p">
+                                                            {% if upload_form.id.value %}
+                                                                <a href="{{ STATIC_URL }}{{ MEDIA_URL }}{{ upload_form.name.value }}">{{ upload_form.name.value|safe }}</a><span class="hidden">{{ upload_form.file }}{{ upload_form.name }}</span>{{ upload_form.id }}
+                                                            {% else %}
+                                                                {{ upload_form.file }}<span class="hidden">{{ upload_form.name }}</span>{{ upload_form.id }}
+                                                            {% endif %}
+                                                        </p>
+                                                    
+                                            {% endfor %}
+                                    </div>
+                                </div>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="submit" name="attached_documents_button" class="btn btn-primary">{% trans "Save changes" %}</button>
+                          </div>
+                          </form>
+                        </div>
+                      </div>
+                      </div>
+                {% endif %}
+
+           
+            
+    
+        {% if user.profile.has_advanced_permissions %}   
+            <div class="col-lg-12">  
+                    <p class="lead">{% trans "Manage criterions" %}<a href="#" data-toggle="modal" data-target="#criterion_modal" aria-hidden="true"><span class="glyphicon glyphicon-pencil edit_icon" aria-hidden="true"></span></a></p>
+                    
+                    <div class="modal fade" id="criterion_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog modal-lg modal-lg" role="document">
+                        <div class="modal-content">
+                        <form action="#" method="POST" id="manage_criterions_form" >{% csrf_token %}
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-criterion" id="myModalLabel">{% trans "Edit criterion" %}</h4>
+                          </div>
+                          <div class="modal-body">                            
+                                <table id="criterions_table" class="display" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>{% trans "Criterion" %}</th>
+                                                <th></th>                    
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {{ proposal_criterions.management_form }}
+                                            {% for criterion in criterion_list %}
+                                                <tr>
+                                                    <td>{{ criterion.id }}</td>
+                                                    <td>{{ criterion.criterion }}</td>
+                                                    {% with proposal_criterions|get_form_by_index:forloop.counter0 as form %}
+                                                        <td>{{ form.criterion }}{{ form.changed }}</td>
+                                                    {% endwith %}
+                                                </tr>
+                                            {% endfor %}
+
+                                        </tbody>
+                               </table>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                            <button type="submit" name="manage_criterions_button" class="btn btn-primary btn-lg">{% trans "Save" %}</button>
+                          </div>
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+     {% endif %}
+     
+        
+            
+            <div class="well">
+                    <h2><span>{{ proposal.get_fonds }}</span> <small> {% trans "Fonds" %} </small></h2>
+                    {% if user.is_authenticated %}
+                        <button id="id_fond_show_{{ proposal.id }}" onclick="fond_via_ajax('{{ proposal.id }}'); return false" id="id_fond_button_{{ proposal.id }}" class="btn btn-primary btn-lg btn-block {% if proposal|already_fonded:user %}voted{% endif %}" {% if proposal|already_fonded:user %}disabled {% endif %}>{% if proposal|already_fonded:user %}{% trans "Already fonded" %}{% else %}{% trans "Fond" %}{% endif %}</button>
+                    {% else %}
+                        <button class="btn btn-primary btn-lg btn-block" id="id_fond_show_{{ proposal.id }}" href="/?next=/">{% trans "Fond" %}</button>
+                    {% endif %}
+            </div>
+        </div>
+        
+        
+</div>
+{% endblock %}
+{% block additional_scripts2 %}
+<script src="{{ STATIC_URL }}js/jquery.formset.js"></script>
+<script src="{{ STATIC_URL }}js/translations.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.dataTables.min.js"></script>
+<script src="{{ STATIC_URL }}js/social-share-kit.js"></script>
+<script type="text/javascript">
+    SocialShareKit.init()
+    var opentrad_code = {{ opentrad_code | js }};
+    var at_language_priority = {{ at_language_priority | js }};
+    var timerid = 0;
+    var countimages = 0;
+    images = [
+    {% for image in proposal.get_images %}
+        "{{ STATIC_URL }}{{ image }}",
+    {% endfor %}
+    ]
+    change_images();
+    var layer_array = Array();
+    {% if user.profile.has_advanced_permissions or proposal|is_author:user %}
+        function load_map(map, options){
+            {% for point in proposal.get_map_points %}
+                {% if forloop.counter == 1 %}
+                    map.panTo(new L.LatLng({{ point.x|correct_float_format }}, {{ point.y|correct_float_format }}));
+                {% endif %}
+                L.marker([{{ point.x|correct_float_format }}, {{ point.y|correct_float_format }}]).on("click",function(e) {map.removeLayer(this);}).on("click",function(e) {map.removeLayer(this);layer_array=jQuery.grep(layer_array, function(value) {return $(value).not([e.latlng.lat,e.latlng.lng]).length === 0 && $([e.latlng.lat,e.latlng.lng]).not(value).length === 0});delete_point_from_map_proposal([e.latlng.lat,e.latlng.lng],{{ proposal.id }})}).addTo(map);
+                layer_array.push([{{ point.x|correct_float_format }}, {{ point.y|correct_float_format }}]);
+            {% endfor %}
+            
+            map.on('click', function(e) {var marker = L.marker(e.latlng, { title: "Resource Location",alt: "Resource Location",riseOnHover: true,draggable: true}).on("click",function(e) {map.removeLayer(this);layer_array=jQuery.grep(layer_array, function(value) {return $(value).not([e.latlng.lat,e.latlng.lng]).length === 0 && $([e.latlng.lat,e.latlng.lng]).not(value).length === 0});delete_point_from_map_proposal([e.latlng.lat,e.latlng.lng],{{ proposal.id }})}).addTo(map);add_point_to_map_proposal([e.latlng.lat,e.latlng.lng],{{ proposal.id }});layer_array.push([e.latlng.lat,e.latlng.lng]);});
+
+        }
+    {% else %}
+        function load_map(map, options){
+            {% for point in proposal.get_map_points %}
+                {% if forloop.counter == 1 %}
+                    map.panTo(new L.LatLng({{ point.x|correct_float_format }}, {{ point.y|correct_float_format }}));
+                {% endif %}
+                L.marker([{{ point.x|correct_float_format }}, {{ point.y|correct_float_format }}]).addTo(map).openPopup();                
+            {% endfor %}
+        }
+    {% endif %}
+
+</script>
+{% endblock %}
+

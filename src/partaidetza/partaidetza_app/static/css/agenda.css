@@ -1,0 +1,44 @@
+.body {padding-top:180px;}
+
+.right-floated{
+    float:right !important;
+}
+
+.form-control[id^='id_form'] {
+    display: inline !important;
+    width: 90% !important;
+}
+
+.form-control[id^='form'] {
+    display: inline !important;
+    width: 90% !important;
+}
+
+.panel-primary>.panel-heading{
+    color: #fff;
+    background-color: #101010 !important;
+    border-color: #101010 !important;
+}
+
+.panel-primary {
+    border-color: #101010;
+}
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+
+.to-highlight{
+   background-color: black;
+}
+   
+.calendar_div{
+    overflow:hidden;
+} 
+
