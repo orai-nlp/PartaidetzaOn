@@ -1,4 +1,6 @@
-PartaidetzaOn -- *e-participation open-source platform*
+PartaidetzaOn 
+=========================================================
+*e-participation open-source platform*
 =========================================================
 
 Requirements: 
