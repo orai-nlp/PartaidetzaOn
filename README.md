@@ -24,16 +24,15 @@ Create project's MYSQL database:
         
 Install Solr and create indexes:
 
-        Download solr from [here](http://lucene.apache.org/solr/downloads.html)
-        Decompress in /src/partaidetza/
-        Create a collection
-        Add Elhuyar's APIs to Solr libraries:
-                cp solr_apis/* solr_VERSION_NUMBER/examples/YOUR_COLLECTION
-        Launch Solr server
-        Create YOUR_COLLECTION's conf file (Change project's setting.py file before execute this --> See Configuration section for more detail).
-        $ bin/django build_solr_schema > conf.xml . Use this conf file to configure solr collection (solr_VERSION_NUMBER/examples/YOUR_COLLECTION/conf). Configuration needed!
-        Edit configuration depending on your needs.     
-        $ bin/django rebuild_index -v2 . Use this to rebuild the index
+        - Download solr from [here](http://lucene.apache.org/solr/downloads.html)
+        - Decompress in /src/partaidetza/
+        - Create a collection
+        - $ cp solr_apis/* solr_VERSION_NUMBER/examples/YOUR_COLLECTION . Add Elhuyar's APIs to Solr libraries
+        - Launch Solr server
+        - Create YOUR_COLLECTION's conf file (Change project's setting.py file before execute this --> See Configuration section for more detail).
+        - $ bin/django build_solr_schema > conf.xml . Use this conf file to configure solr collection (solr_VERSION_NUMBER/examples/YOUR_COLLECTION/conf). Configuration needed!
+        - Edit configuration depending on your needs.     
+        - $ bin/django rebuild_index -v2 . Use this to rebuild the index
         
         
 Configuration
