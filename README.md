@@ -75,6 +75,15 @@ Configuration
         - LEAFLET_CONFIG: Configures Leaflet (Maps)
                 Example: LEAFLET_CONFIG = {'DEFAULT_CENTER': (43.2714582916227,-2.0481375743),'DEFAULT_ZOOM': 18,'MIN_ZOOM': 3,'MAX_ZOOM': 18,'ATTRIBUTION_PREFIX': ''}
         
+Running
+-------
+
+        - Launch Solr:
+                $ java -jar /solr_VERSION_NUMBER/examples/start.jar
+        - Launch Django project:
+                $ bin/django runserver YOUR_URL:YOUR_POST
+        
+        NOTE: Alternativelly you can configure the project via Apache.
         
         
 
