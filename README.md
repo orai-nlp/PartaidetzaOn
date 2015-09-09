@@ -1,6 +1,3 @@
-# PartaidetzaOn
-e-participation open-source platform
-
 PartaidetzaOn -- *e-participation open-source platform*
 =========================================================
 
@@ -12,7 +9,7 @@ Requirements:
 Installation
 ------------
 
-Install partaidetzaOn::
+Install partaidetzaOn
 
     Create project's files:
         > python bootstrap.py
@@ -24,7 +21,7 @@ Install partaidetzaOn::
         > bin/django syncdb
         
     Install Solr and create indexes:
-        - Download solr from http://lucene.apache.org/solr/downloads.html
+        - Download solr from [http://lucene.apache.org/solr/downloads.html](http://lucene.apache.org/solr/downloads.html)
         - Decompress in /src/partaidetza/
         - Create a collection
         - Add Elhuyar's APIs to Solr libraries:
