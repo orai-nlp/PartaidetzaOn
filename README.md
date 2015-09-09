@@ -11,19 +11,19 @@ Requirements:
 Installation
 ------------
 
-*Create project's files:
+* Create project's files:
 
         $ python bootstrap.py
         $ bin/buildout
         $ bin/django create_search_indexes
                 - (creates search_indexes.py file in partaidetza_app folder. Configuration needed!)
 
-*Create project's MYSQL database:
+* Create project's MYSQL database:
 
         $ mysql -u YOUR_MYSQL_USER -p -e "create database YOUR_DATABASE"
         $ bin/django syncdb
         
-*Install Solr and create indexes:
+* Install Solr and create indexes:
 
         - Download solr from http://lucene.apache.org/solr/downloads.html
         - Decompress in /src/partaidetza/
