@@ -72,6 +72,20 @@ Configuration
                 Example: TEXT_CAT_LANGUAGE_CONVERTOR: {"basque":"eu","spanish":"es","english":"en","french":"fr"}
         - LEAFLET_CONFIG: Configures Leaflet (Maps)
                 Example: LEAFLET_CONFIG = {'DEFAULT_CENTER': (43.2714582916227,-2.0481375743),'DEFAULT_ZOOM': 18,'MIN_ZOOM': 3,'MAX_ZOOM': 18,'ATTRIBUTION_PREFIX': ''}
+        - PROPOSAL_HELP_CRITERIONS: Set proposal help criterions (shown when adding new proposals)
+                Example: [_('Urte betean egitekoa izatea'),_('Udalaren eskumena izatea'),_('Interes orokorrekoa izatea'),_('Aurrekontuaren baitan sartzea')]
+                NOTE: Translations must be included in PO files
+        - REJECT_INFO: Set proposal rejection reasons (that are referenced when a proposal is rejected). 5 reasons must be set.
+                Example: {'1':_('Publikatzeko irizpideak betetzen ez dituelako baztertua'),'2':_('Ez da erakundearen konpetentziakoa'),'3':_('Saioa presentzialean baztertua edo ez hautatua'),'4':_('Bideragarritasun teknikoa/ekonomikoa ez betetzegatik baztertua'),'5':_('Bozketa-fasean baztertua edo ez hautatua')}
+                NOTE: Translations must be included in PO files
+        - CKEDITOR_UPLOAD_PATH: Set the upload path to CkEditor (for more information visit https://github.com/django-ckeditor/django-ckeditor)
+                Example: ""
+        - CKEDITOR_IMAGE_BACKEND: Set Ckeditor backend (for more information visit https://github.com/django-ckeditor/django-ckeditor)
+                Example: "pillow"
+        - CKEDITOR_CONFIGS: Set Ckeditor global configuration (for more information visit https://github.com/django-ckeditor/django-ckeditor)
+                Example: {'default': {'toolbar': 'Standard',}}
+        - CKEDITOR_JQUERY_URL: Set Ckeditor jquery URL path
+                Example: '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
         
 Running
 -------
